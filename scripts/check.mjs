@@ -7,7 +7,13 @@ import { readFileSync, existsSync } from 'node:fs';
 // Independently-verified term counts per week (from the I8 vision pass over the PDF).
 const VERIFIED_COUNTS = { 5: 8, 6: 10, 7: 10, 8: 12, 9: 14, 10: 14, 11: 14, 12: 14, 13: 14 };
 
-const py   = (zh) => pinyin(zh, { toneType: 'symbol', type: 'string', nonZh: 'consecutive' });
+// Same verified overrides as scripts/build.mjs (keep in sync).
+const PINYIN_FIX = { '湖泊':'hú pō', '时候':'shí hou', '困难':'kùn nan', '明白':'míng bai', '厉害':'lì hai' };
+const rawPy = (zh) => pinyin(zh, { toneType: 'symbol', type: 'string', nonZh: 'consecutive' });
+const WRONG2RIGHT = Object.fromEntries(Object.entries(PINYIN_FIX).map(([w, r]) => [rawPy(w), r]));
+const fixEx = (s) => { for (const [bad, good] of Object.entries(WRONG2RIGHT)) s = s.split(bad).join(good); return s; };
+const py   = (zh) => fixEx(rawPy(zh));
+const pyTerm = (t) => PINYIN_FIX[t] || rawPy(t);
 const TONE = /[āáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜüa-z]/i;     // pinyin should carry tone marks, never digits
 const hasDigit = (s) => /[0-9]/.test(s);
 
@@ -23,8 +29,8 @@ for (const r of records) {
   if (hasDigit(r.pinyin)) fails.push(`A2 ${tag}: pinyin has digits "${r.pinyin}"`);
   if (hasDigit(r.example_pinyin)) fails.push(`A2 ${tag}: example_pinyin has digits`);
   if (!TONE.test(r.pinyin)) fails.push(`A2 ${tag}: pinyin not tone-marked`);
-  // A3 pinyin == tool(term)
-  const p = py(r.term);
+  // A3 pinyin == tool(term) (+ verified overrides)
+  const p = pyTerm(r.term);
   if (p !== r.pinyin) fails.push(`A3 ${tag}: pinyin "${r.pinyin}" != tool "${p}"`);
   // A4 example contains term
   if (!r.example_zh.includes(r.term)) fails.push(`A4 ${tag}: example_zh missing term`);

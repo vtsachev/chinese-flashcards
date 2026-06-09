@@ -9,7 +9,15 @@ const DATA_DIR = 'data';
 const OUT_DIR = 'docs/data';
 mkdirSync(OUT_DIR, { recursive: true });
 
-const py = (zh) => pinyin(zh, { toneType: 'symbol', type: 'string', nonZh: 'consecutive' });
+// Verified pinyin overrides: pinyin-pro mis-reads these (polyphone / neutral-tone).
+// Each correction was confirmed by the independent vision evaluators against the source cards.
+const PINYIN_FIX = { '湖泊':'hú pō', '时候':'shí hou', '困难':'kùn nan', '明白':'míng bai', '厉害':'lì hai' };
+const rawPy = (zh) => pinyin(zh, { toneType: 'symbol', type: 'string', nonZh: 'consecutive' });
+// build wrong->right substring map for fixing example pinyin
+const WRONG2RIGHT = Object.fromEntries(Object.entries(PINYIN_FIX).map(([w, right]) => [rawPy(w), right]));
+const fixExample = (s) => { for (const [bad, good] of Object.entries(WRONG2RIGHT)) s = s.split(bad).join(good); return s; };
+const pyTerm = (t) => PINYIN_FIX[t] || rawPy(t);
+const py = (zh) => fixExample(rawPy(zh));
 
 const records = [];
 for (const f of readdirSync(DATA_DIR).filter(n => /^source-week\d+\.json$/.test(n))) {
@@ -20,7 +28,7 @@ for (const f of readdirSync(DATA_DIR).filter(n => /^source-week\d+\.json$/.test(
       week,
       term: t.term,
       unit: [...t.term].length > 1 ? 'word' : 'char',
-      pinyin: py(t.term),                 // tool-derived
+      pinyin: pyTerm(t.term),             // tool-derived (+ verified overrides)
       pinyin_source: 'pinyin-pro',
       english: t.english,
       example_zh: t.example_zh,

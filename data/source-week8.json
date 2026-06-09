@@ -11,7 +11,7 @@
     { "term": "认识",   "english": "to know (someone)", "example_zh": "我认识他。",         "example_en": "I know him." },
     { "term": "神经元", "english": "neuron",            "example_zh": "大脑里有神经元。",   "example_en": "There are neurons in the brain." },
     { "term": "挑战",   "english": "challenge",         "example_zh": "我喜欢挑战。",       "example_en": "I like a challenge." },
-    { "term": "厉害",   "english": "awesome / impressive", "example_zh": "你画得真厉害。",  "example_en": "You draw really well." },
+    { "term": "厉害",   "english": "awesome / impressive", "example_zh": "你真厉害！",  "example_en": "You're awesome!" },
     { "term": "放弃",   "english": "to give up",        "example_zh": "我不会放弃。",       "example_en": "I won't give up." }
   ]
 }
