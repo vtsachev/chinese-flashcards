@@ -1,0 +1,15 @@
+{
+  "week": 6,
+  "terms": [
+    { "term": "胖鸟", "english": "fat bird",            "example_zh": "那只胖鸟在树上。",   "example_en": "That fat bird is in the tree." },
+    { "term": "球",   "english": "ball",                "example_zh": "我们一起玩球。",     "example_en": "Let's play ball together." },
+    { "term": "像",   "english": "to look like",        "example_zh": "云像一只小狗。",     "example_en": "The cloud looks like a puppy." },
+    { "term": "一样", "english": "the same",            "example_zh": "我和你一样高。",     "example_en": "I am the same height as you." },
+    { "term": "美味", "english": "delicious",           "example_zh": "这个蛋糕很美味。",   "example_en": "This cake is delicious." },
+    { "term": "鸟",   "english": "bird",                "example_zh": "小鸟会飞。",         "example_en": "The little bird can fly." },
+    { "term": "就",   "english": "right away / then",   "example_zh": "我做完就来。",       "example_en": "I'll come as soon as I'm done." },
+    { "term": "用",   "english": "to use",              "example_zh": "我用筷子吃饭。",     "example_en": "I eat with chopsticks." },
+    { "term": "把",   "english": "to take hold of",     "example_zh": "我把书放好。",       "example_en": "I put the book away." },
+    { "term": "觉得", "english": "to think / to feel",  "example_zh": "我觉得很开心。",     "example_en": "I feel very happy." }
+  ]
+}

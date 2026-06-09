@@ -1,0 +1,17 @@
+{
+  "week": 8,
+  "terms": [
+    { "term": "秘密",   "english": "secret",            "example_zh": "别说这个秘密。",     "example_en": "Don't tell this secret." },
+    { "term": "感到",   "english": "to feel",           "example_zh": "我感到很累。",       "example_en": "I feel tired." },
+    { "term": "时候",   "english": "time / moment",     "example_zh": "小时候我很矮。",     "example_en": "When I was little I was short." },
+    { "term": "遇见",   "english": "to meet",           "example_zh": "我遇见了老师。",     "example_en": "I met the teacher." },
+    { "term": "或者",   "english": "or",                "example_zh": "红色或者蓝色。",     "example_en": "Red or blue." },
+    { "term": "聪明",   "english": "smart / clever",    "example_zh": "小猫很聪明。",       "example_en": "The kitten is smart." },
+    { "term": "成长",   "english": "to grow up",        "example_zh": "我们每天成长。",     "example_en": "We grow a little every day." },
+    { "term": "认识",   "english": "to know (someone)", "example_zh": "我认识他。",         "example_en": "I know him." },
+    { "term": "神经元", "english": "neuron",            "example_zh": "大脑里有神经元。",   "example_en": "There are neurons in the brain." },
+    { "term": "挑战",   "english": "challenge",         "example_zh": "我喜欢挑战。",       "example_en": "I like a challenge." },
+    { "term": "厉害",   "english": "awesome / impressive", "example_zh": "你画得真厉害。",  "example_en": "You draw really well." },
+    { "term": "放弃",   "english": "to give up",        "example_zh": "我不会放弃。",       "example_en": "I won't give up." }
+  ]
+}

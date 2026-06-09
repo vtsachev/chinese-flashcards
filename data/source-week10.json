@@ -1,0 +1,19 @@
+{
+  "week": 10,
+  "terms": [
+    { "term": "知道",   "english": "to know",           "example_zh": "我知道答案。",       "example_en": "I know the answer." },
+    { "term": "特别",   "english": "especially",        "example_zh": "今天特别热。",       "example_en": "Today is especially hot." },
+    { "term": "需要",   "english": "to need",           "example_zh": "我需要帮助。",       "example_en": "I need help." },
+    { "term": "觉得",   "english": "to think / to feel","example_zh": "我觉得很难。",       "example_en": "I think it's hard." },
+    { "term": "困难",   "english": "difficulty",        "example_zh": "困难不可怕。",       "example_en": "Difficulty isn't scary." },
+    { "term": "挑战",   "english": "challenge",         "example_zh": "这是新挑战。",       "example_en": "This is a new challenge." },
+    { "term": "最",     "english": "most",              "example_zh": "我最喜欢红色。",     "example_en": "I like red the most." },
+    { "term": "让",     "english": "to let / to allow", "example_zh": "让我试试。",         "example_en": "Let me try." },
+    { "term": "成为",   "english": "to become",         "example_zh": "我想成为老师。",     "example_en": "I want to become a teacher." },
+    { "term": "方法",   "english": "method / way",      "example_zh": "换个方法。",         "example_en": "Try another way." },
+    { "term": "时候",   "english": "time / moment",     "example_zh": "是时候回家了。",     "example_en": "It's time to go home." },
+    { "term": "遇见",   "english": "to meet",           "example_zh": "我遇见好朋友。",     "example_en": "I met a good friend." },
+    { "term": "先",     "english": "first",             "example_zh": "先洗手再吃饭。",     "example_en": "Wash your hands first, then eat." },
+    { "term": "试一试", "english": "to give it a try",  "example_zh": "我们试一试吧。",     "example_en": "Let's give it a try." }
+  ]
+}

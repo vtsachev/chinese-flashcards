@@ -1,0 +1,15 @@
+{
+  "week": 7,
+  "terms": [
+    { "term": "大脑", "english": "brain",              "example_zh": "我们用大脑学习。",   "example_en": "We use our brain to learn." },
+    { "term": "方法", "english": "method / way",       "example_zh": "我有好方法。",       "example_en": "I have a good method." },
+    { "term": "这些", "english": "these",              "example_zh": "这些书是我的。",     "example_en": "These books are mine." },
+    { "term": "感到", "english": "to feel",            "example_zh": "我感到很高兴。",     "example_en": "I feel very happy." },
+    { "term": "加油", "english": "keep it up / go for it", "example_zh": "老师给我们加油。", "example_en": "The teacher cheers us on." },
+    { "term": "困难", "english": "difficult / hard",   "example_zh": "这道题很困难。",     "example_en": "This problem is hard." },
+    { "term": "秘密", "english": "secret",             "example_zh": "我有一个秘密。",     "example_en": "I have a secret." },
+    { "term": "明白", "english": "to understand",      "example_zh": "我明白了。",         "example_en": "I understand now." },
+    { "term": "或者", "english": "or",                 "example_zh": "喝水或者牛奶。",     "example_en": "Drink water or milk." },
+    { "term": "聪明", "english": "smart / clever",     "example_zh": "他很聪明。",         "example_en": "He is very smart." }
+  ]
+}

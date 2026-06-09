@@ -1,0 +1,19 @@
+{
+  "week": 12,
+  "terms": [
+    { "term": "地球",   "english": "the Earth",         "example_zh": "地球是圆的。",       "example_en": "The Earth is round." },
+    { "term": "陆地",   "english": "land",              "example_zh": "陆地很大。",         "example_en": "The land is vast." },
+    { "term": "海洋",   "english": "ocean",             "example_zh": "海洋里有鱼。",       "example_en": "There are fish in the ocean." },
+    { "term": "大洲",   "english": "continent",         "example_zh": "世界有七大洲。",     "example_en": "The world has seven continents." },
+    { "term": "白雪",   "english": "white snow",        "example_zh": "山上有白雪。",       "example_en": "There is white snow on the mountain." },
+    { "term": "历史",   "english": "history",           "example_zh": "我喜欢听历史。",     "example_en": "I like hearing history stories." },
+    { "term": "金字塔", "english": "pyramid",           "example_zh": "金字塔很高。",       "example_en": "The pyramid is very tall." },
+    { "term": "袋鼠",   "english": "kangaroo",          "example_zh": "袋鼠会跳。",         "example_en": "Kangaroos can jump." },
+    { "term": "考拉",   "english": "koala",             "example_zh": "考拉很可爱。",       "example_en": "Koalas are cute." },
+    { "term": "形状",   "english": "shape",             "example_zh": "这是什么形状？",     "example_en": "What shape is this?" },
+    { "term": "亚马逊", "english": "the Amazon",        "example_zh": "亚马逊有雨林。",     "example_en": "The Amazon has a rainforest." },
+    { "term": "雨林",   "english": "rainforest",        "example_zh": "雨林里有很多树。",   "example_en": "The rainforest has many trees." },
+    { "term": "巴西",   "english": "Brazil",            "example_zh": "巴西在南美洲。",     "example_en": "Brazil is in South America." },
+    { "term": "湖泊",   "english": "lake",              "example_zh": "湖泊里有水。",       "example_en": "There is water in the lake." }
+  ]
+}

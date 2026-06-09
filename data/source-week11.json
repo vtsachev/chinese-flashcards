@@ -1,0 +1,19 @@
+{
+  "week": 11,
+  "terms": [
+    { "term": "北美洲", "english": "North America",     "example_zh": "美国在北美洲。",     "example_en": "The USA is in North America." },
+    { "term": "南美洲", "english": "South America",     "example_zh": "巴西在南美洲。",     "example_en": "Brazil is in South America." },
+    { "term": "欧洲",   "english": "Europe",            "example_zh": "法国在欧洲。",       "example_en": "France is in Europe." },
+    { "term": "亚洲",   "english": "Asia",              "example_zh": "中国在亚洲。",       "example_en": "China is in Asia." },
+    { "term": "大洋洲", "english": "Oceania",           "example_zh": "大洋洲有袋鼠。",     "example_en": "Oceania has kangaroos." },
+    { "term": "非洲",   "english": "Africa",            "example_zh": "非洲有大象。",       "example_en": "Africa has elephants." },
+    { "term": "南极洲", "english": "Antarctica",        "example_zh": "南极洲很冷。",       "example_en": "Antarctica is very cold." },
+    { "term": "陆地",   "english": "land",              "example_zh": "陆地上有树。",       "example_en": "There are trees on land." },
+    { "term": "国家",   "english": "country",           "example_zh": "中国是大国家。",     "example_en": "China is a big country." },
+    { "term": "人类",   "english": "humankind",         "example_zh": "人类住在地球。",     "example_en": "Humans live on Earth." },
+    { "term": "地图",   "english": "map",               "example_zh": "看看这张地图。",     "example_en": "Look at this map." },
+    { "term": "自然",   "english": "nature",            "example_zh": "我爱大自然。",       "example_en": "I love nature." },
+    { "term": "世界",   "english": "world",             "example_zh": "世界很大。",         "example_en": "The world is big." },
+    { "term": "来自",   "english": "to come from",      "example_zh": "我来自美国。",       "example_en": "I come from the USA." }
+  ]
+}

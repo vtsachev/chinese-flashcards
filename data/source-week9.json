@@ -1,0 +1,19 @@
+{
+  "week": 9,
+  "terms": [
+    { "term": "方法",   "english": "method / way",      "example_zh": "这个方法很好。",     "example_en": "This method is good." },
+    { "term": "感到",   "english": "to feel",           "example_zh": "我感到开心。",       "example_en": "I feel happy." },
+    { "term": "困难",   "english": "difficulty",        "example_zh": "别怕困难。",         "example_en": "Don't be afraid of difficulty." },
+    { "term": "秘密",   "english": "secret",            "example_zh": "这是我的秘密。",     "example_en": "This is my secret." },
+    { "term": "明白",   "english": "to understand",     "example_zh": "你明白吗？",         "example_en": "Do you understand?" },
+    { "term": "或者",   "english": "or",                "example_zh": "走路或者坐车。",     "example_en": "Walk or take the bus." },
+    { "term": "聪明",   "english": "smart / clever",    "example_zh": "她很聪明。",         "example_en": "She is smart." },
+    { "term": "比如",   "english": "for example",       "example_zh": "比如苹果和梨。",     "example_en": "For example, apples and pears." },
+    { "term": "新东西", "english": "new thing",         "example_zh": "我学到新东西。",     "example_en": "I learned something new." },
+    { "term": "数学",   "english": "math",              "example_zh": "我喜欢数学。",       "example_en": "I like math." },
+    { "term": "神经元", "english": "neuron",            "example_zh": "神经元很小。",       "example_en": "Neurons are very small." },
+    { "term": "应该",   "english": "should / ought to", "example_zh": "我们应该努力。",     "example_en": "We should work hard." },
+    { "term": "厉害",   "english": "awesome / impressive", "example_zh": "这真厉害。",      "example_en": "This is amazing." },
+    { "term": "放弃",   "english": "to give up",        "example_zh": "我不放弃。",         "example_en": "I don't give up." }
+  ]
+}

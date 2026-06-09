@@ -5,7 +5,7 @@ import { pinyin } from 'pinyin-pro';
 import { readFileSync, existsSync } from 'node:fs';
 
 // Independently-verified term counts per week (from the I8 vision pass over the PDF).
-const VERIFIED_COUNTS = { 5: 8 };
+const VERIFIED_COUNTS = { 5: 8, 6: 10, 7: 10, 8: 12, 9: 14, 10: 14, 11: 14, 12: 14, 13: 14 };
 
 const py   = (zh) => pinyin(zh, { toneType: 'symbol', type: 'string', nonZh: 'consecutive' });
 const TONE = /[āáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜüa-z]/i;     // pinyin should carry tone marks, never digits

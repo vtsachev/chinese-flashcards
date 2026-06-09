@@ -1,0 +1,19 @@
+{
+  "week": 13,
+  "terms": [
+    { "term": "形状", "english": "shape",            "example_zh": "月亮的形状变了。",   "example_en": "The moon's shape changed." },
+    { "term": "颜色", "english": "color",            "example_zh": "我喜欢这个颜色。",   "example_en": "I like this color." },
+    { "term": "特别", "english": "especially",       "example_zh": "她特别高兴。",       "example_en": "She is especially happy." },
+    { "term": "面积", "english": "area (size)",      "example_zh": "中国面积很大。",     "example_en": "China's area is very large." },
+    { "term": "人口", "english": "population",       "example_zh": "中国人口很多。",     "example_en": "China has a large population." },
+    { "term": "人类", "english": "humankind",        "example_zh": "人类很聪明。",       "example_en": "Humans are smart." },
+    { "term": "陆地", "english": "land",             "example_zh": "陆地和海洋。",       "example_en": "Land and ocean." },
+    { "term": "海洋", "english": "ocean",            "example_zh": "海洋很深。",         "example_en": "The ocean is deep." },
+    { "term": "大洲", "english": "continent",        "example_zh": "亚洲是大洲。",       "example_en": "Asia is a continent." },
+    { "term": "地球", "english": "the Earth",        "example_zh": "我们爱地球。",       "example_en": "We love the Earth." },
+    { "term": "国家", "english": "country",          "example_zh": "每个国家不同。",     "example_en": "Every country is different." },
+    { "term": "南极", "english": "the South Pole",   "example_zh": "南极很冷。",         "example_en": "The South Pole is cold." },
+    { "term": "白雪", "english": "white snow",       "example_zh": "白雪很美。",         "example_en": "The white snow is beautiful." },
+    { "term": "湖泊", "english": "lake",             "example_zh": "这个湖泊很大。",     "example_en": "This lake is big." }
+  ]
+}
