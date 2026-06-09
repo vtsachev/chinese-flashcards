@@ -1,0 +1,26 @@
+{
+  "week": 22,
+  "terms": [
+    { "term": "地图",   "english": "map",          "example_zh": "地图上有海洋。",     "example_en": "There are oceans on the map." },
+    { "term": "自然",   "english": "nature",       "example_zh": "自然里有动物。",     "example_en": "Nature has animals." },
+    { "term": "告诉",   "english": "to tell",      "example_zh": "我告诉你一件事。",   "example_en": "I'll tell you something." },
+    { "term": "信息",   "english": "information",  "example_zh": "书里有很多信息。",   "example_en": "The book has a lot of information." },
+    { "term": "方向",   "english": "direction",    "example_zh": "地图告诉我们方向。", "example_en": "The map tells us the direction." },
+    { "term": "但是",   "english": "but",          "example_zh": "我想去，但是下雨了。", "example_en": "I want to go, but it's raining." },
+    { "term": "欧洲",   "english": "Europe",       "example_zh": "欧洲很漂亮。",       "example_en": "Europe is beautiful." },
+    { "term": "非洲",   "english": "Africa",       "example_zh": "非洲有狮子。",       "example_en": "Africa has lions." },
+    { "term": "亚洲",   "english": "Asia",         "example_zh": "亚洲有中国。",       "example_en": "Asia has China." },
+    { "term": "陆地",   "english": "land",         "example_zh": "陆地上有山。",       "example_en": "There are mountains on land." },
+    { "term": "雨林",   "english": "rainforest",   "example_zh": "雨林很绿。",         "example_en": "The rainforest is green." },
+    { "term": "亚马逊", "english": "the Amazon",   "example_zh": "亚马逊在南美洲。",   "example_en": "The Amazon is in South America." },
+    { "term": "南极",   "english": "the South Pole","example_zh": "南极有很多冰。",     "example_en": "The South Pole has a lot of ice." },
+    { "term": "形状",   "english": "shape",        "example_zh": "月亮的形状变了。",   "example_en": "The moon's shape changed." },
+    { "term": "经过",   "english": "to pass by",   "example_zh": "我们经过公园。",     "example_en": "We pass by the park." },
+    { "term": "准备",   "english": "to get ready", "example_zh": "准备上课了。",       "example_en": "Get ready for class." },
+    { "term": "后来",   "english": "later / afterwards", "example_zh": "后来他来了。",  "example_en": "Later, he came." },
+    { "term": "时间",   "english": "time",         "example_zh": "现在没有时间。",     "example_en": "There is no time now." },
+    { "term": "时候",   "english": "time / moment","example_zh": "现在是什么时候？",   "example_en": "What time is it now?" },
+    { "term": "世界",   "english": "world",        "example_zh": "世界有七大洲。",     "example_en": "The world has seven continents." },
+    { "term": "觉得",   "english": "to think / to feel", "example_zh": "我觉得很开心。", "example_en": "I feel happy." }
+  ]
+}

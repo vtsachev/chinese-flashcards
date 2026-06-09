@@ -1,0 +1,23 @@
+{
+  "week": 34,
+  "terms": [
+    { "term": "支点",   "english": "fulcrum",       "example_zh": "跷跷板有支点。",     "example_en": "A seesaw has a fulcrum." },
+    { "term": "平衡",   "english": "balance",       "example_zh": "我能保持平衡。",     "example_en": "I can keep my balance." },
+    { "term": "变化",   "english": "change",        "example_zh": "颜色有变化。",       "example_en": "The color is changing." },
+    { "term": "重量",   "english": "weight",        "example_zh": "大象重量很大。",     "example_en": "An elephant's weight is huge." },
+    { "term": "位置",   "english": "position / place","example_zh": "每个人有位置。",     "example_en": "Everyone has a place." },
+    { "term": "杠杆",   "english": "lever",         "example_zh": "杠杆很有用。",       "example_en": "A lever is useful." },
+    { "term": "跷跷板", "english": "seesaw",        "example_zh": "我们玩跷跷板。",     "example_en": "We play on the seesaw." },
+    { "term": "受力",   "english": "to bear force", "example_zh": "桥要受力。",         "example_en": "The bridge bears force." },
+    { "term": "见过",   "english": "to have seen",  "example_zh": "我见过大海。",       "example_en": "I have seen the sea." },
+    { "term": "怎么",   "english": "how",           "example_zh": "这个怎么用？",       "example_en": "How do you use this?" },
+    { "term": "找到",   "english": "to find",       "example_zh": "我找到钥匙了。",     "example_en": "I found the key." },
+    { "term": "部分",   "english": "part",          "example_zh": "这是第一部分。",     "example_en": "This is the first part." },
+    { "term": "知道",   "english": "to know",       "example_zh": "我知道答案。",       "example_en": "I know the answer." },
+    { "term": "最后",   "english": "last / finally","example_zh": "最后我赢了。",       "example_en": "In the end, I won." },
+    { "term": "滑轮",   "english": "pulley",        "example_zh": "滑轮能省力。",       "example_en": "A pulley saves effort." },
+    { "term": "拉力",   "english": "pulling force", "example_zh": "拉力很大。",         "example_en": "The pulling force is strong." },
+    { "term": "生活",   "english": "life",          "example_zh": "生活很美好。",       "example_en": "Life is wonderful." },
+    { "term": "转动",   "english": "to turn",       "example_zh": "轮子在转动。",       "example_en": "The wheel is turning." }
+  ]
+}

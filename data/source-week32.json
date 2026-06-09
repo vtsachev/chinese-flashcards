@@ -1,0 +1,22 @@
+{
+  "week": 32,
+  "terms": [
+    { "term": "老虎", "english": "tiger",          "example_zh": "老虎在睡觉。",       "example_en": "The tiger is sleeping." },
+    { "term": "西瓜", "english": "watermelon",     "example_zh": "西瓜很甜。",         "example_en": "The watermelon is sweet." },
+    { "term": "忽然", "english": "suddenly",       "example_zh": "忽然有人来了。",     "example_en": "Suddenly someone came." },
+    { "term": "简单", "english": "simple",         "example_zh": "这道题很简单。",     "example_en": "This problem is simple." },
+    { "term": "帮助", "english": "help",           "example_zh": "谢谢你的帮助。",     "example_en": "Thank you for your help." },
+    { "term": "工具", "english": "tool",           "example_zh": "锤子是工具。",       "example_en": "A hammer is a tool." },
+    { "term": "箱子", "english": "box",            "example_zh": "箱子很重。",         "example_en": "The box is heavy." },
+    { "term": "机械", "english": "machine",        "example_zh": "机械能帮我们。",     "example_en": "Machines can help us." },
+    { "term": "杠杆", "english": "lever",          "example_zh": "杠杆能省力。",       "example_en": "A lever saves effort." },
+    { "term": "斜面", "english": "inclined plane / ramp","example_zh": "斜面像滑梯。",   "example_en": "An inclined plane is like a slide." },
+    { "term": "滑轮", "english": "pulley",         "example_zh": "滑轮能拉东西。",     "example_en": "A pulley can pull things." },
+    { "term": "楔子", "english": "wedge",          "example_zh": "楔子能劈木头。",     "example_en": "A wedge can split wood." },
+    { "term": "螺旋", "english": "spiral",         "example_zh": "螺旋是弯的。",       "example_en": "A spiral is curved." },
+    { "term": "轮轴", "english": "wheel and axle", "example_zh": "轮轴会转。",         "example_en": "The wheel and axle turns." },
+    { "term": "舒服", "english": "comfortable",    "example_zh": "床很舒服。",         "example_en": "The bed is comfortable." },
+    { "term": "应该", "english": "should",         "example_zh": "你应该帮忙。",       "example_en": "You should help." },
+    { "term": "终于", "english": "finally",        "example_zh": "终于到周末了。",     "example_en": "The weekend is finally here." }
+  ]
+}

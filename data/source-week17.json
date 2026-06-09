@@ -1,0 +1,23 @@
+{
+  "week": 17,
+  "terms": [
+    { "term": "东西",   "english": "thing",        "example_zh": "桌上有东西。",       "example_en": "There is something on the table." },
+    { "term": "南极",   "english": "the South Pole","example_zh": "南极有企鹅。",       "example_en": "The South Pole has penguins." },
+    { "term": "方向",   "english": "direction",    "example_zh": "太阳在那个方向。",   "example_en": "The sun is in that direction." },
+    { "term": "陆地",   "english": "land",         "example_zh": "我们住在陆地上。",   "example_en": "We live on land." },
+    { "term": "雨林",   "english": "rainforest",   "example_zh": "雨林里有很多动物。", "example_en": "The rainforest has many animals." },
+    { "term": "冰雪",   "english": "ice and snow", "example_zh": "山上有冰雪。",       "example_en": "There is ice and snow on the mountain." },
+    { "term": "亚马逊", "english": "the Amazon",   "example_zh": "亚马逊很大。",       "example_en": "The Amazon is huge." },
+    { "term": "海洋",   "english": "ocean",        "example_zh": "海洋很深。",         "example_en": "The ocean is deep." },
+    { "term": "沙漠",   "english": "desert",       "example_zh": "沙漠里很热。",       "example_en": "The desert is hot." },
+    { "term": "大洋洲", "english": "Oceania",      "example_zh": "大洋洲有大海。",     "example_en": "Oceania has big seas." },
+    { "term": "欧洲",   "english": "Europe",       "example_zh": "欧洲有很多国家。",   "example_en": "Europe has many countries." },
+    { "term": "亚洲",   "english": "Asia",         "example_zh": "亚洲很大。",         "example_en": "Asia is big." },
+    { "term": "非洲",   "english": "Africa",       "example_zh": "非洲很热。",         "example_en": "Africa is hot." },
+    { "term": "北美洲", "english": "North America","example_zh": "加拿大在北美洲。",   "example_en": "Canada is in North America." },
+    { "term": "觉得",   "english": "to think / to feel", "example_zh": "我觉得很冷。",   "example_en": "I feel cold." },
+    { "term": "非常",   "english": "very",         "example_zh": "今天非常热。",       "example_en": "Today is very hot." },
+    { "term": "时候",   "english": "time / moment","example_zh": "小时候我很小。",     "example_en": "When I was little I was small." },
+    { "term": "而且",   "english": "and also",     "example_zh": "他聪明而且努力。",   "example_en": "He is smart and also hardworking." }
+  ]
+}

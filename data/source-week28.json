@@ -1,0 +1,22 @@
+{
+  "week": 28,
+  "terms": [
+    { "term": "日晷",   "english": "sundial",       "example_zh": "日晷能看时间。",     "example_en": "A sundial can tell time." },
+    { "term": "观察",   "english": "to observe",    "example_zh": "我们观察星星。",     "example_en": "We observe the stars." },
+    { "term": "黑夜",   "english": "night",         "example_zh": "黑夜里有月亮。",     "example_en": "There is a moon at night." },
+    { "term": "月球",   "english": "the moon",      "example_zh": "月球上没有水。",     "example_en": "There is no water on the moon." },
+    { "term": "四季",   "english": "the four seasons","example_zh": "一年有四季。",       "example_en": "A year has four seasons." },
+    { "term": "宇宙",   "english": "the universe",  "example_zh": "宇宙里有星星。",     "example_en": "The universe has stars." },
+    { "term": "科学家", "english": "scientist",     "example_zh": "科学家爱观察。",     "example_en": "Scientists love to observe." },
+    { "term": "首先",   "english": "first of all",  "example_zh": "首先我们洗手。",     "example_en": "First, we wash our hands." },
+    { "term": "其次",   "english": "next / secondly","example_zh": "其次我们吃饭。",     "example_en": "Next, we eat." },
+    { "term": "再次",   "english": "once more",     "example_zh": "我们再次见面。",     "example_en": "We meet once more." },
+    { "term": "最后",   "english": "last / finally","example_zh": "最后我们回家。",     "example_en": "Finally, we go home." },
+    { "term": "比如",   "english": "for example",   "example_zh": "我爱水果，比如苹果。", "example_en": "I love fruit, for example apples." },
+    { "term": "火箭",   "english": "rocket",        "example_zh": "火箭飞上天。",       "example_en": "The rocket flies into the sky." },
+    { "term": "外星人", "english": "alien",         "example_zh": "有外星人吗？",       "example_en": "Are there aliens?" },
+    { "term": "宇航员", "english": "astronaut",     "example_zh": "宇航员坐火箭。",     "example_en": "Astronauts ride rockets." },
+    { "term": "认真",   "english": "careful / serious","example_zh": "请认真写字。",     "example_en": "Please write carefully." },
+    { "term": "学习",   "english": "to study",      "example_zh": "我们一起学习。",     "example_en": "Let's study together." }
+  ]
+}

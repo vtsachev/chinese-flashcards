@@ -1,0 +1,13 @@
+{
+  "week": 19,
+  "terms": [
+    { "term": "伟大", "english": "great",          "example_zh": "他是伟大的人。",     "example_en": "He is a great person." },
+    { "term": "探险", "english": "to explore",     "example_zh": "我们去探险。",       "example_en": "We go exploring." },
+    { "term": "北部", "english": "the north",      "example_zh": "他住在北部。",       "example_en": "He lives in the north." },
+    { "term": "温度", "english": "temperature",    "example_zh": "今天温度很低。",     "example_en": "The temperature is low today." },
+    { "term": "靠近", "english": "to get close to","example_zh": "别靠近火。",         "example_en": "Don't get close to the fire." },
+    { "term": "受伤", "english": "to get hurt",    "example_zh": "他的脚受伤了。",     "example_en": "His foot got hurt." },
+    { "term": "向导", "english": "guide",          "example_zh": "向导带我们走。",     "example_en": "The guide leads us." },
+    { "term": "政府", "english": "government",      "example_zh": "政府帮助人们。",     "example_en": "The government helps people." }
+  ]
+}

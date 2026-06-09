@@ -1,0 +1,14 @@
+{
+  "week": 18,
+  "terms": [
+    { "term": "出发", "english": "to set off",   "example_zh": "我们早上出发。",     "example_en": "We set off in the morning." },
+    { "term": "游泳", "english": "to swim",       "example_zh": "我喜欢游泳。",       "example_en": "I like to swim." },
+    { "term": "语言", "english": "language",      "example_zh": "中文是一种语言。",   "example_en": "Chinese is a language." },
+    { "term": "航海", "english": "sailing / voyage","example_zh": "他喜欢航海。",     "example_en": "He likes sailing." },
+    { "term": "准备", "english": "to get ready",  "example_zh": "我准备好了。",       "example_en": "I am ready." },
+    { "term": "想法", "english": "idea",          "example_zh": "我有一个想法。",     "example_en": "I have an idea." },
+    { "term": "终于", "english": "finally",       "example_zh": "我终于到家了。",     "example_en": "I finally got home." },
+    { "term": "到达", "english": "to arrive",     "example_zh": "我们到达学校。",     "example_en": "We arrived at school." },
+    { "term": "希望", "english": "to hope",       "example_zh": "我希望明天晴天。",   "example_en": "I hope it's sunny tomorrow." }
+  ]
+}

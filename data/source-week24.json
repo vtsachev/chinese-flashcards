@@ -1,0 +1,25 @@
+{
+  "week": 24,
+  "terms": [
+    { "term": "名字",   "english": "name",         "example_zh": "你叫什么名字？",     "example_en": "What is your name?" },
+    { "term": "图例",   "english": "map legend",   "example_zh": "地图有图例。",       "example_en": "The map has a legend." },
+    { "term": "形状",   "english": "shape",        "example_zh": "这块石头形状很怪。", "example_en": "This rock has a strange shape." },
+    { "term": "方向",   "english": "direction",    "example_zh": "我们走这个方向。",   "example_en": "We go in this direction." },
+    { "term": "比例尺", "english": "map scale",    "example_zh": "比例尺帮我们看地图。", "example_en": "The scale helps us read the map." },
+    { "term": "礼物",   "english": "gift",         "example_zh": "这是给你的礼物。",   "example_en": "This is a gift for you." },
+    { "term": "游泳",   "english": "to swim",      "example_zh": "我会游泳。",         "example_en": "I can swim." },
+    { "term": "世界",   "english": "world",        "example_zh": "世界很大很美。",     "example_en": "The world is big and beautiful." },
+    { "term": "信息",   "english": "information",  "example_zh": "我得到了信息。",     "example_en": "I got the information." },
+    { "term": "自然",   "english": "nature",       "example_zh": "我们爱自然。",       "example_en": "We love nature." },
+    { "term": "特别",   "english": "especially",   "example_zh": "今天特别开心。",     "example_en": "Today I'm especially happy." },
+    { "term": "生活",   "english": "life",         "example_zh": "我的生活很快乐。",   "example_en": "My life is happy." },
+    { "term": "故事",   "english": "story",        "example_zh": "我爱听故事。",       "example_en": "I love hearing stories." },
+    { "term": "陆地",   "english": "land",         "example_zh": "陆地上有房子。",     "example_en": "There are houses on land." },
+    { "term": "反而",   "english": "instead",      "example_zh": "他不哭，反而笑了。", "example_en": "He didn't cry; instead he laughed." },
+    { "term": "女孩",   "english": "girl",         "example_zh": "那个女孩很高。",     "example_en": "That girl is tall." },
+    { "term": "声音",   "english": "sound / voice","example_zh": "我听到声音。",       "example_en": "I hear a sound." },
+    { "term": "电视",   "english": "television",   "example_zh": "我在看电视。",       "example_en": "I am watching TV." },
+    { "term": "困难",   "english": "difficult",    "example_zh": "这件事不困难。",     "example_en": "This isn't difficult." },
+    { "term": "经过",   "english": "to pass by",   "example_zh": "我经过你家。",       "example_en": "I pass by your house." }
+  ]
+}

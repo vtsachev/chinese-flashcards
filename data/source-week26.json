@@ -1,0 +1,21 @@
+{
+  "week": 26,
+  "terms": [
+    { "term": "神话",   "english": "myth",          "example_zh": "我爱读神话。",       "example_en": "I love reading myths." },
+    { "term": "故事",   "english": "story",         "example_zh": "妈妈讲故事。",       "example_en": "Mom tells a story." },
+    { "term": "希腊",   "english": "Greece",        "example_zh": "希腊在欧洲。",       "example_en": "Greece is in Europe." },
+    { "term": "非洲",   "english": "Africa",        "example_zh": "非洲很大。",         "example_en": "Africa is big." },
+    { "term": "常常",   "english": "often",         "example_zh": "我常常笑。",         "example_en": "I often laugh." },
+    { "term": "努力",   "english": "to work hard",  "example_zh": "努力就会成功。",     "example_en": "Work hard and you will succeed." },
+    { "term": "科学",   "english": "science",       "example_zh": "科学很有趣。",       "example_en": "Science is fun." },
+    { "term": "进入",   "english": "to enter",      "example_zh": "请进入教室。",       "example_en": "Please enter the classroom." },
+    { "term": "太空",   "english": "outer space",   "example_zh": "我想去太空。",       "example_en": "I want to go to space." },
+    { "term": "学习",   "english": "to study",      "example_zh": "学习很重要。",       "example_en": "Studying is important." },
+    { "term": "女孩",   "english": "girl",          "example_zh": "女孩在跳舞。",       "example_en": "The girl is dancing." },
+    { "term": "宇航员", "english": "astronaut",     "example_zh": "我想当宇航员。",     "example_en": "I want to be an astronaut." },
+    { "term": "意思",   "english": "meaning",       "example_zh": "这是什么意思？",     "example_en": "What does this mean?" },
+    { "term": "前后",   "english": "back and forth","example_zh": "他前后看了看。",     "example_en": "He looked back and forth." },
+    { "term": "原来",   "english": "it turns out",  "example_zh": "原来是你呀！",       "example_en": "Oh, it's you!" },
+    { "term": "特别",   "english": "especially",    "example_zh": "这本书特别好。",     "example_en": "This book is especially good." }
+  ]
+}

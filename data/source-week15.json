@@ -1,0 +1,24 @@
+{
+  "week": 15,
+  "terms": [
+    { "term": "南极洲", "english": "Antarctica",   "example_zh": "南极洲很冷。",       "example_en": "Antarctica is very cold." },
+    { "term": "南美洲", "english": "South America", "example_zh": "巴西在南美洲。",     "example_en": "Brazil is in South America." },
+    { "term": "北美洲", "english": "North America", "example_zh": "美国在北美洲。",     "example_en": "The USA is in North America." },
+    { "term": "亚洲",   "english": "Asia",          "example_zh": "中国在亚洲。",       "example_en": "China is in Asia." },
+    { "term": "非洲",   "english": "Africa",        "example_zh": "非洲有大象。",       "example_en": "Africa has elephants." },
+    { "term": "欧洲",   "english": "Europe",        "example_zh": "法国在欧洲。",       "example_en": "France is in Europe." },
+    { "term": "袋鼠",   "english": "kangaroo",      "example_zh": "袋鼠会跳。",         "example_en": "Kangaroos can jump." },
+    { "term": "考拉",   "english": "koala",         "example_zh": "考拉很可爱。",       "example_en": "Koalas are cute." },
+    { "term": "雨林",   "english": "rainforest",    "example_zh": "雨林里有很多树。",   "example_en": "The rainforest has many trees." },
+    { "term": "陆地",   "english": "land",          "example_zh": "陆地上有树。",       "example_en": "There are trees on land." },
+    { "term": "海洋",   "english": "ocean",         "example_zh": "海洋里有鱼。",       "example_en": "There are fish in the ocean." },
+    { "term": "面积",   "english": "area (size)",   "example_zh": "中国面积很大。",     "example_en": "China's area is very large." },
+    { "term": "形状",   "english": "shape",         "example_zh": "这是什么形状？",     "example_en": "What shape is this?" },
+    { "term": "地图",   "english": "map",           "example_zh": "看看这张地图。",     "example_en": "Look at this map." },
+    { "term": "自然",   "english": "nature",        "example_zh": "我爱大自然。",       "example_en": "I love nature." },
+    { "term": "告诉",   "english": "to tell",       "example_zh": "告诉我你的名字。",   "example_en": "Tell me your name." },
+    { "term": "信息",   "english": "information",   "example_zh": "这条信息很重要。",   "example_en": "This information is important." },
+    { "term": "方向",   "english": "direction",     "example_zh": "我们走错方向了。",   "example_en": "We went the wrong way." },
+    { "term": "觉得",   "english": "to think / to feel", "example_zh": "我觉得很有趣。", "example_en": "I think it's fun." }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "week": 35,
+  "terms": [
+    { "term": "杠杆", "english": "lever",          "example_zh": "杠杆是简单机械。",   "example_en": "A lever is a simple machine." },
+    { "term": "斜面", "english": "inclined plane / ramp","example_zh": "斜面能帮我们。",   "example_en": "An inclined plane helps us." },
+    { "term": "滑轮", "english": "pulley",         "example_zh": "滑轮在井上。",       "example_en": "The pulley is over the well." },
+    { "term": "轮子", "english": "wheel",          "example_zh": "轮子是圆的。",       "example_en": "A wheel is round." },
+    { "term": "轮轴", "english": "wheel and axle", "example_zh": "轮轴能转动。",       "example_en": "The wheel and axle can turn." },
+    { "term": "楔子", "english": "wedge",          "example_zh": "楔子能切开。",       "example_en": "A wedge can split things." },
+    { "term": "螺旋", "english": "spiral",         "example_zh": "螺旋向上转。",       "example_en": "The spiral turns upward." },
+    { "term": "旋转", "english": "to spin / to rotate","example_zh": "地球在旋转。",     "example_en": "The Earth is spinning." },
+    { "term": "省力", "english": "to save effort", "example_zh": "机械能省力。",       "example_en": "Machines save effort." },
+    { "term": "简单", "english": "simple",         "example_zh": "这很简单。",         "example_en": "This is simple." },
+    { "term": "机械", "english": "machine",        "example_zh": "我喜欢机械。",       "example_en": "I like machines." },
+    { "term": "作用", "english": "function / effect","example_zh": "杠杆有作用。",       "example_en": "A lever has a use." },
+    { "term": "部分", "english": "part",           "example_zh": "这是一部分。",       "example_en": "This is one part." },
+    { "term": "重要", "english": "important",      "example_zh": "安全很重要。",       "example_en": "Safety is important." }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "week": 31,
+  "terms": [
+    { "term": "老虎", "english": "tiger",          "example_zh": "老虎很厉害。",       "example_en": "The tiger is fierce." },
+    { "term": "西瓜", "english": "watermelon",     "example_zh": "夏天吃西瓜。",       "example_en": "We eat watermelon in summer." },
+    { "term": "夏天", "english": "summer",         "example_zh": "夏天很热。",         "example_en": "Summer is hot." },
+    { "term": "沙发", "english": "sofa",           "example_zh": "我坐在沙发上。",     "example_en": "I sit on the sofa." },
+    { "term": "舒服", "english": "comfortable",    "example_zh": "沙发很舒服。",       "example_en": "The sofa is comfortable." },
+    { "term": "应该", "english": "should",         "example_zh": "我们应该早睡。",     "example_en": "We should sleep early." },
+    { "term": "高兴", "english": "happy",          "example_zh": "我很高兴。",         "example_en": "I am very happy." },
+    { "term": "力气", "english": "strength",       "example_zh": "他很有力气。",       "example_en": "He is very strong." },
+    { "term": "着急", "english": "anxious / worried","example_zh": "别着急，慢慢来。",   "example_en": "Don't worry, take your time." },
+    { "term": "快点", "english": "hurry up",       "example_zh": "快点，要迟到了！",   "example_en": "Hurry, we'll be late!" },
+    { "term": "忽然", "english": "suddenly",       "example_zh": "忽然下雨了。",       "example_en": "Suddenly it rained." },
+    { "term": "办法", "english": "way / method",   "example_zh": "我有个好办法。",     "example_en": "I have a good idea." },
+    { "term": "好笑", "english": "funny",          "example_zh": "这个故事很好笑。",   "example_en": "This story is funny." },
+    { "term": "电视", "english": "television",     "example_zh": "我们一起看电视。",   "example_en": "We watch TV together." },
+    { "term": "终于", "english": "finally",        "example_zh": "我终于做完了。",     "example_en": "I finally finished." },
+    { "term": "非常", "english": "very",           "example_zh": "我非常喜欢你。",     "example_en": "I like you very much." }
+  ]
+}

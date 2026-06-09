@@ -1,0 +1,20 @@
+{
+  "week": 16,
+  "terms": [
+    { "term": "地图",   "english": "map",          "example_zh": "我有一张地图。",     "example_en": "I have a map." },
+    { "term": "自然",   "english": "nature",       "example_zh": "大自然很美。",       "example_en": "Nature is beautiful." },
+    { "term": "告诉",   "english": "to tell",      "example_zh": "请告诉老师。",       "example_en": "Please tell the teacher." },
+    { "term": "信息",   "english": "information",  "example_zh": "我找到新信息。",     "example_en": "I found new information." },
+    { "term": "陆地",   "english": "land",         "example_zh": "陆地比海洋小。",     "example_en": "Land is smaller than the ocean." },
+    { "term": "海洋",   "english": "ocean",        "example_zh": "海洋很蓝。",         "example_en": "The ocean is blue." },
+    { "term": "大洲",   "english": "continent",    "example_zh": "亚洲是大洲。",       "example_en": "Asia is a continent." },
+    { "term": "认识",   "english": "to know / to recognize", "example_zh": "我认识这个字。", "example_en": "I know this character." },
+    { "term": "标题",   "english": "title",        "example_zh": "故事有标题。",       "example_en": "The story has a title." },
+    { "term": "指向标", "english": "compass arrow (on a map)", "example_zh": "指向标指着北。", "example_en": "The compass arrow points north." },
+    { "term": "图例",   "english": "map legend",   "example_zh": "看地图的图例。",     "example_en": "Look at the map's legend." },
+    { "term": "比例尺", "english": "map scale",    "example_zh": "地图有比例尺。",     "example_en": "The map has a scale." },
+    { "term": "决定",   "english": "to decide",    "example_zh": "我决定去公园。",     "example_en": "I decided to go to the park." },
+    { "term": "形状",   "english": "shape",        "example_zh": "云的形状很多。",     "example_en": "Clouds have many shapes." },
+    { "term": "世界",   "english": "world",        "example_zh": "世界很大。",         "example_en": "The world is big." }
+  ]
+}

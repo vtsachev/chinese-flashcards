@@ -1,0 +1,22 @@
+{
+  "week": 25,
+  "terms": [
+    { "term": "翅膀",   "english": "wing",          "example_zh": "鸟有翅膀。",         "example_en": "Birds have wings." },
+    { "term": "喜欢",   "english": "to like",       "example_zh": "我喜欢画画。",       "example_en": "I like to draw." },
+    { "term": "科学",   "english": "science",       "example_zh": "我喜欢科学。",       "example_en": "I like science." },
+    { "term": "认真",   "english": "careful / serious", "example_zh": "他学习很认真。",  "example_en": "He studies seriously." },
+    { "term": "感觉",   "english": "feeling",       "example_zh": "这种感觉很好。",     "example_en": "This feeling is nice." },
+    { "term": "歧视",   "english": "discrimination","example_zh": "我们不歧视别人。",   "example_en": "We do not discriminate against others." },
+    { "term": "努力",   "english": "to work hard",  "example_zh": "我努力学习。",       "example_en": "I work hard at studying." },
+    { "term": "太空",   "english": "outer space",   "example_zh": "太空里有星星。",     "example_en": "There are stars in space." },
+    { "term": "宇航员", "english": "astronaut",     "example_zh": "宇航员去太空。",     "example_en": "Astronauts go to space." },
+    { "term": "参加",   "english": "to take part in","example_zh": "我参加比赛。",       "example_en": "I take part in the contest." },
+    { "term": "学习",   "english": "to study",      "example_zh": "我每天学习。",       "example_en": "I study every day." },
+    { "term": "公司",   "english": "company",       "example_zh": "爸爸在公司上班。",   "example_en": "Dad works at a company." },
+    { "term": "梦想",   "english": "dream",         "example_zh": "我的梦想是飞。",     "example_en": "My dream is to fly." },
+    { "term": "发现",   "english": "to discover",   "example_zh": "我发现了一只猫。",   "example_en": "I found a cat." },
+    { "term": "总分",   "english": "total score",   "example_zh": "我的总分很高。",     "example_en": "My total score is high." },
+    { "term": "如果",   "english": "if",            "example_zh": "如果下雨就回家。",   "example_en": "If it rains, go home." },
+    { "term": "需要",   "english": "to need",       "example_zh": "我需要一支笔。",     "example_en": "I need a pen." }
+  ]
+}

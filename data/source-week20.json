@@ -1,0 +1,18 @@
+{
+  "week": 20,
+  "terms": [
+    { "term": "航行", "english": "to sail",        "example_zh": "大船在海上航行。",   "example_en": "The big ship sails on the sea." },
+    { "term": "于是", "english": "and so",         "example_zh": "下雨了，于是我回家。", "example_en": "It rained, so I went home." },
+    { "term": "使者", "english": "messenger / envoy","example_zh": "国王派了使者。",   "example_en": "The king sent a messenger." },
+    { "term": "伟大", "english": "great",          "example_zh": "长城很伟大。",       "example_en": "The Great Wall is magnificent." },
+    { "term": "语言", "english": "language",        "example_zh": "他会三种语言。",     "example_en": "He speaks three languages." },
+    { "term": "游泳", "english": "to swim",        "example_zh": "夏天我们去游泳。",   "example_en": "In summer we go swimming." },
+    { "term": "船员", "english": "crew member",    "example_zh": "船员在船上工作。",   "example_en": "The crew works on the ship." },
+    { "term": "失败", "english": "to fail",        "example_zh": "失败没关系。",       "example_en": "It's okay to fail." },
+    { "term": "到达", "english": "to arrive",      "example_zh": "飞机到达了。",       "example_en": "The plane has arrived." },
+    { "term": "奴隶", "english": "slave",          "example_zh": "很久以前有奴隶。",   "example_en": "Long ago there were slaves." },
+    { "term": "探险", "english": "to explore",     "example_zh": "探险很有趣。",       "example_en": "Exploring is fun." },
+    { "term": "奖牌", "english": "medal",          "example_zh": "他得了金奖牌。",     "example_en": "He won a gold medal." },
+    { "term": "向导", "english": "guide",          "example_zh": "我们跟着向导。",     "example_en": "We follow the guide." }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "week": 29,
+  "terms": [
+    { "term": "公转",   "english": "revolution (orbit)", "example_zh": "地球绕太阳公转。", "example_en": "The Earth revolves around the sun." },
+    { "term": "登陆",   "english": "to land",       "example_zh": "火箭在月球登陆。",   "example_en": "The rocket lands on the moon." },
+    { "term": "月球",   "english": "the moon",      "example_zh": "月球很圆。",         "example_en": "The moon is round." },
+    { "term": "然后",   "english": "then",          "example_zh": "先洗手，然后吃饭。", "example_en": "Wash your hands first, then eat." },
+    { "term": "如果",   "english": "if",            "example_zh": "如果累了就休息。",   "example_en": "If you're tired, rest." },
+    { "term": "经过",   "english": "to pass by",    "example_zh": "我们经过商店。",     "example_en": "We pass by the store." },
+    { "term": "沿着",   "english": "along",         "example_zh": "沿着路走。",         "example_en": "Walk along the road." },
+    { "term": "路线",   "english": "route",         "example_zh": "这是我们的路线。",   "example_en": "This is our route." },
+    { "term": "椭圆",   "english": "oval",          "example_zh": "鸡蛋是椭圆的。",     "example_en": "An egg is oval." },
+    { "term": "倾斜",   "english": "to tilt",       "example_zh": "地球有点倾斜。",     "example_en": "The Earth tilts a little." },
+    { "term": "强度",   "english": "strength / intensity", "example_zh": "光的强度很大。", "example_en": "The light is very strong." },
+    { "term": "相反",   "english": "opposite",      "example_zh": "上和下相反。",       "example_en": "Up and down are opposite." },
+    { "term": "季节",   "english": "season",        "example_zh": "春天是好季节。",     "example_en": "Spring is a good season." },
+    { "term": "黑夜",   "english": "night",         "example_zh": "黑夜很安静。",       "example_en": "The night is quiet." },
+    { "term": "自转",   "english": "rotation (spin)","example_zh": "地球自转一天。",     "example_en": "The Earth rotates once a day." }
+  ]
+}

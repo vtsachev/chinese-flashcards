@@ -1,0 +1,12 @@
+{
+  "week": 21,
+  "terms": [
+    { "term": "有名",   "english": "famous",        "example_zh": "他很有名。",         "example_en": "He is famous." },
+    { "term": "经常",   "english": "often",         "example_zh": "我经常看书。",       "example_en": "I often read books." },
+    { "term": "不同",   "english": "different",     "example_zh": "我们的想法不同。",   "example_en": "Our ideas are different." },
+    { "term": "西洋",   "english": "the West",      "example_zh": "他去了西洋。",       "example_en": "He went to the West." },
+    { "term": "航海家", "english": "navigator",     "example_zh": "郑和是航海家。",     "example_en": "Zheng He was a navigator." },
+    { "term": "外交家", "english": "diplomat",      "example_zh": "外交家很会说话。",   "example_en": "A diplomat speaks well." },
+    { "term": "礼物",   "english": "gift",          "example_zh": "我送你礼物。",       "example_en": "I give you a gift." }
+  ]
+}

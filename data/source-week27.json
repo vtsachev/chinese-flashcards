@@ -1,0 +1,21 @@
+{
+  "week": 27,
+  "terms": [
+    { "term": "月球",   "english": "the moon",      "example_zh": "月球绕着地球。",     "example_en": "The moon orbits the Earth." },
+    { "term": "太阳",   "english": "the sun",       "example_zh": "太阳很亮。",         "example_en": "The sun is bright." },
+    { "term": "火星",   "english": "Mars",          "example_zh": "火星是红色的。",     "example_en": "Mars is red." },
+    { "term": "宇宙",   "english": "the universe",  "example_zh": "宇宙很大。",         "example_en": "The universe is huge." },
+    { "term": "轨道",   "english": "orbit",         "example_zh": "地球在轨道上。",     "example_en": "The Earth is on its orbit." },
+    { "term": "太空",   "english": "outer space",   "example_zh": "太空很黑。",         "example_en": "Space is dark." },
+    { "term": "围绕",   "english": "to revolve around","example_zh": "月亮围绕地球。",   "example_en": "The moon revolves around the Earth." },
+    { "term": "不但",   "english": "not only",      "example_zh": "他不但高，还快。",   "example_en": "He is not only tall but also fast." },
+    { "term": "反而",   "english": "instead",       "example_zh": "雨停了，反而冷了。", "example_en": "The rain stopped, but it got colder instead." },
+    { "term": "经过",   "english": "to pass through","example_zh": "光经过窗户。",       "example_en": "Light passes through the window." },
+    { "term": "自转",   "english": "rotation (spin)","example_zh": "地球每天自转。",     "example_en": "The Earth rotates every day." },
+    { "term": "公转",   "english": "revolution (orbit)","example_zh": "地球绕太阳公转。", "example_en": "The Earth revolves around the sun." },
+    { "term": "宇航员", "english": "astronaut",     "example_zh": "宇航员很勇敢。",     "example_en": "Astronauts are brave." },
+    { "term": "认真",   "english": "careful / serious","example_zh": "我认真听课。",     "example_en": "I listen carefully in class." },
+    { "term": "地球",   "english": "the Earth",     "example_zh": "地球是我们的家。",   "example_en": "The Earth is our home." },
+    { "term": "学习",   "english": "to study",      "example_zh": "我爱学习。",         "example_en": "I love learning." }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "week": 30,
+  "_note": "Source card printed 自传 (autobiography); corrected to 自转 (rotation) to match the astronomy lesson and Weeks 27/29.",
+  "terms": [
+    { "term": "公转",   "english": "revolution (orbit)", "example_zh": "地球公转一年。",  "example_en": "The Earth orbits the sun in a year." },
+    { "term": "自转",   "english": "rotation (spin)","example_zh": "地球自转很快。",     "example_en": "The Earth rotates fast." },
+    { "term": "外星",   "english": "outer space / alien", "example_zh": "外星很神奇。",  "example_en": "Outer space is amazing." },
+    { "term": "黑夜",   "english": "night",         "example_zh": "黑夜里很黑。",       "example_en": "It is dark at night." },
+    { "term": "轨道",   "english": "orbit",         "example_zh": "月球有轨道。",       "example_en": "The moon has an orbit." },
+    { "term": "椭圆",   "english": "oval",          "example_zh": "轨道是椭圆。",       "example_en": "The orbit is an oval." },
+    { "term": "倾斜",   "english": "to tilt",       "example_zh": "桌子有点倾斜。",     "example_en": "The table tilts a little." },
+    { "term": "分钟",   "english": "minute",        "example_zh": "等我五分钟。",       "example_en": "Wait five minutes for me." },
+    { "term": "南半球", "english": "Southern Hemisphere","example_zh": "南半球在下面。", "example_en": "The Southern Hemisphere is on the bottom." },
+    { "term": "北半球", "english": "Northern Hemisphere","example_zh": "我们在北半球。", "example_en": "We are in the Northern Hemisphere." },
+    { "term": "宇宙",   "english": "the universe",  "example_zh": "宇宙没有边。",       "example_en": "The universe has no edge." },
+    { "term": "认真",   "english": "careful / serious","example_zh": "她做事认真。",     "example_en": "She does things carefully." },
+    { "term": "四季",   "english": "the four seasons","example_zh": "四季都很美。",       "example_en": "All four seasons are beautiful." },
+    { "term": "意思",   "english": "meaning",       "example_zh": "我懂你的意思。",     "example_en": "I understand what you mean." },
+    { "term": "感觉",   "english": "feeling",       "example_zh": "我感觉很暖和。",     "example_en": "I feel warm." }
+  ]
+}

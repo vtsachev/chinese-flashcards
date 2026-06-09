@@ -5,7 +5,9 @@ import { pinyin } from 'pinyin-pro';
 import { readFileSync, existsSync } from 'node:fs';
 
 // Independently-verified term counts per week (from the I8 vision pass over the PDF).
-const VERIFIED_COUNTS = { 5: 8, 6: 10, 7: 10, 8: 12, 9: 14, 10: 14, 11: 14, 12: 14, 13: 14 };
+const VERIFIED_COUNTS = { 5:8, 6:10, 7:10, 8:12, 9:14, 10:14, 11:14, 12:14, 13:14,
+  15:19, 16:15, 17:18, 18:9, 19:8, 20:13, 21:7, 22:21, 23:17, 24:20, 25:17, 26:16,
+  27:16, 28:17, 29:15, 30:15, 31:16, 32:17, 33:18, 34:18, 35:14 };
 
 // Same verified overrides as scripts/build.mjs (keep in sync).
 const PINYIN_FIX = { '湖泊':'hú pō', '时候':'shí hou', '困难':'kùn nan', '明白':'míng bai', '厉害':'lì hai' };

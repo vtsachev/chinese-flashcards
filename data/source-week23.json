@@ -1,0 +1,22 @@
+{
+  "week": 23,
+  "terms": [
+    { "term": "地图",   "english": "map",          "example_zh": "我看着地图。",       "example_en": "I look at the map." },
+    { "term": "信息",   "english": "information",  "example_zh": "这是新信息。",       "example_en": "This is new information." },
+    { "term": "方向",   "english": "direction",    "example_zh": "哪个方向是北？",     "example_en": "Which direction is north?" },
+    { "term": "向导",   "english": "guide",        "example_zh": "向导知道路。",       "example_en": "The guide knows the way." },
+    { "term": "航海",   "english": "sailing / voyage","example_zh": "古人喜欢航海。",   "example_en": "Ancient people liked sailing." },
+    { "term": "陆地",   "english": "land",         "example_zh": "陆地很大。",         "example_en": "The land is vast." },
+    { "term": "比例尺", "english": "map scale",    "example_zh": "比例尺很有用。",     "example_en": "The scale is useful." },
+    { "term": "人类",   "english": "humankind",    "example_zh": "人类爱地球。",       "example_en": "Humans love the Earth." },
+    { "term": "世界",   "english": "world",        "example_zh": "世界真大。",         "example_en": "The world is really big." },
+    { "term": "国家",   "english": "country",      "example_zh": "这是哪个国家？",     "example_en": "Which country is this?" },
+    { "term": "北极",   "english": "the North Pole","example_zh": "北极有北极熊。",     "example_en": "The North Pole has polar bears." },
+    { "term": "冰雪",   "english": "ice and snow", "example_zh": "北极有冰雪。",       "example_en": "The North Pole has ice and snow." },
+    { "term": "寒冷",   "english": "cold (weather)","example_zh": "冬天很寒冷。",       "example_en": "Winter is cold." },
+    { "term": "大洋洲", "english": "Oceania",      "example_zh": "大洋洲有海岛。",     "example_en": "Oceania has islands." },
+    { "term": "身体",   "english": "body",         "example_zh": "我的身体很好。",     "example_en": "My body is healthy." },
+    { "term": "这些",   "english": "these",        "example_zh": "这些是我的书。",     "example_en": "These are my books." },
+    { "term": "形状",   "english": "shape",        "example_zh": "雪花的形状很美。",   "example_en": "Snowflakes have pretty shapes." }
+  ]
+}

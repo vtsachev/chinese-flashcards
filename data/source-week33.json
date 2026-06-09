@@ -1,0 +1,23 @@
+{
+  "week": 33,
+  "terms": [
+    { "term": "简单", "english": "simple",         "example_zh": "答案很简单。",       "example_en": "The answer is simple." },
+    { "term": "机械", "english": "machine",        "example_zh": "这是简单机械。",     "example_en": "This is a simple machine." },
+    { "term": "搬运", "english": "to haul / to move","example_zh": "工人搬运箱子。",     "example_en": "The workers move the boxes." },
+    { "term": "楼梯", "english": "stairs",         "example_zh": "我走上楼梯。",       "example_en": "I walk up the stairs." },
+    { "term": "轮子", "english": "wheel",          "example_zh": "车有四个轮子。",     "example_en": "A car has four wheels." },
+    { "term": "轮轴", "english": "wheel and axle", "example_zh": "轮轴帮车走。",       "example_en": "The wheel and axle helps the car move." },
+    { "term": "楔子", "english": "wedge",          "example_zh": "楔子很尖。",         "example_en": "The wedge is sharp." },
+    { "term": "支点", "english": "fulcrum",        "example_zh": "杠杆有支点。",       "example_en": "A lever has a fulcrum." },
+    { "term": "变化", "english": "change",         "example_zh": "天气有变化。",       "example_en": "The weather is changing." },
+    { "term": "绳子", "english": "rope",           "example_zh": "绳子很长。",         "example_en": "The rope is long." },
+    { "term": "重要", "english": "important",      "example_zh": "这件事很重要。",     "example_en": "This matter is important." },
+    { "term": "螺旋", "english": "spiral",         "example_zh": "楼梯是螺旋的。",     "example_en": "The staircase is spiral." },
+    { "term": "螺丝", "english": "screw",          "example_zh": "我拧紧螺丝。",       "example_en": "I tighten the screw." },
+    { "term": "旋转", "english": "to spin / to rotate","example_zh": "风车在旋转。",     "example_en": "The windmill is spinning." },
+    { "term": "斜面", "english": "inclined plane / ramp","example_zh": "斜面很省力。",   "example_en": "A ramp saves effort." },
+    { "term": "杠杆", "english": "lever",          "example_zh": "用杠杆抬石头。",     "example_en": "Use a lever to lift the rock." },
+    { "term": "舒服", "english": "comfortable",    "example_zh": "今天很舒服。",       "example_en": "Today feels comfortable." },
+    { "term": "应该", "english": "should",         "example_zh": "我们应该努力。",     "example_en": "We should try hard." }
+  ]
+}
