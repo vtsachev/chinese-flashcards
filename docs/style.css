@@ -52,6 +52,15 @@ footer p{margin:4px 0;font-size:.85rem}
 .pill.good{color:var(--deep-green)}
 .pill.bad{color:var(--orange)}
 .hint{font-size:.85rem;color:var(--slate);font-weight:600}
+.hudtop{display:flex;align-items:center;justify-content:center;gap:10px}
+.scopetag{font-family:"Montserrat",sans-serif;font-weight:700;color:var(--forest-green)}
+.changewk{border:none;background:var(--light-green);color:var(--deep-green);font:inherit;font-weight:700;border-radius:999px;padding:3px 12px;font-size:.85rem;cursor:pointer}
+
+/* week picker */
+.weekpick{margin-top:6px}
+.weekpick button{display:flex;flex-direction:column;align-items:center;gap:2px;min-width:96px}
+.weekpick .wc{font-size:.78rem;color:var(--slate);font-weight:700}
+.weekpick .wc.due{color:var(--orange)}
 
 /* ---- big flashcard ---- */
 .stage{display:flex;flex-direction:column;align-items:center;gap:18px}

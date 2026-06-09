@@ -18,7 +18,10 @@ function today(){ const d=new Date(); return `${d.getFullYear()}-${d.getMonth()+
 
 function srs(id){ return state.srs[id] || (state.srs[id] = { box:0, due:0, seen:0 }); }
 function isMastered(id){ return (state.srs[id]?.box || 0) >= 5; }
-function dueNow(){ const t=Date.now(); return CARDS.filter(c => { const s=state.srs[c.id]; return !s || s.due <= t; }); }
+function dueNow(scope){ const t=Date.now(); return CARDS.filter(c => { if(scope!=null && c.week!==scope) return false; const s=state.srs[c.id]; return !s || s.due <= t; }); }
+// what a practice session pulls: a chosen week = drill the whole week; All weeks = SRS due cards
+function cardsFor(scope){ return scope==null ? dueNow(null) : CARDS.filter(c => c.week===scope); }
+const weeksList = () => [...new Set(CARDS.map(c=>c.week))].sort((a,b)=>a-b);
 
 function grade(id, ok){
   const s = srs(id); s.seen++;
@@ -55,17 +58,42 @@ const shuffle = a => { a=[...a]; for(let i=a.length-1;i>0;i--){const j=Math.floo
 /* ================= PRACTICE ================= */
 let queue = [];
 let session = null;
+let practiceScope = null;              // null = all weeks; otherwise a week number
+
+// picker: choose all weeks (spaced review) or one week (drill it now)
+function practiceMenu(){
+  const dueAll = dueNow(null).length;
+  app.innerHTML = `
+    <div class="stage">
+      <div class="prompt-label">Pick what to practice 🐼</div>
+      <div class="btnrow">
+        <button class="big good" id="all" style="max-width:380px">All weeks${dueAll? ` · ${dueAll} due` : ''} →</button>
+      </div>
+      <div class="muted" style="font-weight:700;margin-top:4px">or drill one week</div>
+      <div class="weekbar weekpick">
+        ${weeksList().map(w=>{
+          const due = dueNow(w).length, tot = CARDS.filter(c=>c.week===w).length;
+          return `<button data-w="${w}">Week ${w}<span class="wc ${due?'due':''}">${due? due+' due' : tot+' cards'}</span></button>`;
+        }).join('')}
+      </div>
+    </div>`;
+  $('#all').onclick = ()=>{ practiceScope = null; startPractice(); };
+  app.querySelectorAll('.weekpick button').forEach(b=> b.onclick = ()=>{ practiceScope = +b.dataset.w; startPractice(); });
+}
+
 function startPractice(){
-  queue = shuffle(dueNow());           // interleaved across all weeks
-  session = { total: queue.length, completed: 0, correct: 0, wrong: 0 };
+  queue = shuffle(cardsFor(practiceScope));
+  session = { total: queue.length, completed: 0, correct: 0, wrong: 0, scope: practiceScope };
   nextCard();
 }
 // live session scoreboard shown above every practice card
 function hud(){
   if (!session) return '';
   const pct = session.total ? Math.round(session.completed / session.total * 100) : 0;
+  const label = session.scope==null ? 'All weeks' : 'Week ' + session.scope;
   return `
     <div class="hud">
+      <div class="hudtop"><span class="scopetag">${label}</span><button class="changewk" id="changewk">change</button></div>
       <div class="bar"><span style="width:${pct}%"></span></div>
       <div class="hudrow">
         <span class="pill">Card ${Math.min(session.completed + 1, session.total)} of ${session.total}</span>
@@ -170,10 +198,14 @@ function practiceDone(){
           <span class="pill bad">❌ ${s.wrong} to review</span>
         </div>
         <div class="english">Mastered <b>${mastered}</b> of <b>${total}</b> · 🔥 ${state.streak.count}-day streak</div>
-        <button class="big" id="again" style="max-width:240px">Practice again</button>
+        <div class="btnrow">
+          <button class="big again" id="pick" style="max-width:200px">Pick a week</button>
+          <button class="big good" id="again" style="max-width:200px">Practice again</button>
+        </div>
       </div>
     </div>`;
   $('#again').onclick = startPractice;
+  $('#pick').onclick = practiceMenu;
 }
 
 /* ================= BROWSE ================= */
@@ -233,19 +265,22 @@ function progressView(){
     <div class="bar"><span style="width:${pct}%"></span></div>
     ${due? `<div class="btnrow" style="margin-top:20px"><button class="big good" id="go" style="max-width:300px">Practice ${due} due cards →</button></div>`
          : `<div class="donebanner" style="margin-top:20px">✅ Nothing due right now — great job!</div>`}`;
-  const go = $('#go'); if (go) go.onclick = ()=>switchView('practice');
+  const go = $('#go'); if (go) go.onclick = ()=>{ practiceScope = null; document.querySelectorAll('#tabs button').forEach(b=>b.classList.toggle('active', b.dataset.view==='practice')); startPractice(); };
 }
 
 /* ================= ROUTER ================= */
 function switchView(v){
   document.querySelectorAll('#tabs button').forEach(b=>b.classList.toggle('active', b.dataset.view===v));
-  if (v==='practice') startPractice();
+  if (v==='practice') practiceMenu();
   else if (v==='browse') browseView();
   else progressView();
 }
 document.querySelectorAll('#tabs button').forEach(b=> b.onclick=()=>switchView(b.dataset.view));
 
 /* ================= BOOT ================= */
+// "change week" button inside the practice HUD (delegated so it works in every card view)
+app.addEventListener('click', e=>{ if (e.target && e.target.id==='changewk') practiceMenu(); });
+
 fetch('data/characters.json').then(r=>r.json()).then(d=>{
   CARDS = d.records;
   switchView('practice');
