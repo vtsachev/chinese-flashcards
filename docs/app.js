@@ -162,7 +162,8 @@ function practiceDone(){
   const went = s.correct + s.wrong;
   app.innerHTML = `
     <div class="stage">
-      <div class="donebanner">🎉 Great work!<br>You went through ${went} card${went===1?'':'s'} this round.</div>
+      <div class="donebanner">🎉 Great work!<br>You went through ${went} card${went===1?'':'s'} this round.
+        <img src="assets/pks-globe.png" alt="" class="celebrate"></div>
       <div class="bigcard" style="min-height:auto">
         <div class="hudrow" style="font-size:1.3rem">
           <span class="pill good">✅ ${s.correct} right</span>

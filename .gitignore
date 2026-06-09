@@ -3,3 +3,6 @@ build/
 /tmp/
 .DS_Store
 **/.DS_Store
+
+# school brand source (kept private; site uses derived assets in docs/)
+Images/
