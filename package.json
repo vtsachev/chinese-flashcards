@@ -1,0 +1,10 @@
+{
+  "name": "chinese-flashcards",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Spaced-repetition Chinese character practice (grade-3 immersion)",
+  "dependencies": {
+    "pinyin-pro": "^3.28.1"
+  }
+}

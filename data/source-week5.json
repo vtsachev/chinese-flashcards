@@ -1,0 +1,13 @@
+{
+  "week": 5,
+  "terms": [
+    { "term": "希望", "english": "to hope / to wish for",   "example_zh": "我希望明天是晴天。",     "example_en": "I hope tomorrow is sunny." },
+    { "term": "梦想", "english": "dream / to dream of",       "example_zh": "我的梦想是当老师。",     "example_en": "My dream is to be a teacher." },
+    { "term": "总是", "english": "always",                    "example_zh": "他总是很早到学校。",     "example_en": "He always gets to school very early." },
+    { "term": "完全", "english": "complete / completely",     "example_zh": "这道题我完全会做。",     "example_en": "I can do this problem completely." },
+    { "term": "年级", "english": "grade (school year)",       "example_zh": "我在三年级。",           "example_en": "I am in third grade." },
+    { "term": "别的", "english": "other / else",              "example_zh": "你还想要别的吗？",       "example_en": "Do you want anything else?" },
+    { "term": "就",   "english": "at once / right away",      "example_zh": "我吃完饭就写作业。",     "example_en": "I do my homework right after I finish eating." },
+    { "term": "不如", "english": "not as good as",            "example_zh": "今天不如昨天热。",       "example_en": "Today is not as hot as yesterday." }
+  ]
+}
