@@ -7,7 +7,7 @@
     { "term": "轮子", "english": "wheel",          "example_zh": "轮子是圆的。",       "example_en": "A wheel is round." },
     { "term": "轮轴", "english": "wheel and axle", "example_zh": "轮轴能转动。",       "example_en": "The wheel and axle can turn." },
     { "term": "楔子", "english": "wedge",          "example_zh": "楔子能切开。",       "example_en": "A wedge can split things." },
-    { "term": "螺旋", "english": "spiral",         "example_zh": "螺旋向上转。",       "example_en": "The spiral turns upward." },
+    { "term": "螺旋", "english": "spiral",         "example_zh": "楼梯是螺旋的。",     "example_en": "The staircase is spiral." },
     { "term": "旋转", "english": "to spin / to rotate","example_zh": "地球在旋转。",     "example_en": "The Earth is spinning." },
     { "term": "省力", "english": "to save effort", "example_zh": "机械能省力。",       "example_en": "Machines save effort." },
     { "term": "简单", "english": "simple",         "example_zh": "这很简单。",         "example_en": "This is simple." },

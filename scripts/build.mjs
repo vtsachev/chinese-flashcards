@@ -11,7 +11,12 @@ mkdirSync(OUT_DIR, { recursive: true });
 
 // Verified pinyin overrides: pinyin-pro mis-reads these (polyphone / neutral-tone).
 // Each correction was confirmed by the independent vision evaluators against the source cards.
-const PINYIN_FIX = { '湖泊':'hú pō', '时候':'shí hou', '困难':'kùn nan', '明白':'míng bai', '厉害':'lì hai' };
+const PINYIN_FIX = {
+  '湖泊':'hú pō', '时候':'shí hou', '困难':'kùn nan', '明白':'míng bai', '厉害':'lì hai',
+  '东西':'dōng xi', '名字':'míng zi', '故事':'gù shi', '告诉':'gào su', '意思':'yì si',
+  '舒服':'shū fu', '月亮':'yuè liang', '锤子':'chuí zi', '楔子':'xiē zi', '箱子':'xiāng zi',
+  '轮子':'lún zi', '星星':'xīng xing'
+};
 const rawPy = (zh) => pinyin(zh, { toneType: 'symbol', type: 'string', nonZh: 'consecutive' });
 // build wrong->right substring map for fixing example pinyin
 const WRONG2RIGHT = Object.fromEntries(Object.entries(PINYIN_FIX).map(([w, right]) => [rawPy(w), right]));

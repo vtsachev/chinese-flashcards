@@ -858,13 +858,13 @@
       "english": "new thing",
       "example_zh": "我学到新东西。",
       "example_en": "I learned something new.",
-      "example_pinyin": "wǒ xué dào xīn dōng xī 。",
+      "example_pinyin": "wǒ xué dào xīn dōng xi 。",
       "example_source": "generated",
       "audio_term": "audio/9-新东西.m4a",
       "audio_example": "audio/9-ex-新东西.m4a",
       "status": "extracted",
       "needs_human": false,
-      "checksum": "eb93c17e0b27"
+      "checksum": "755fa02b4798"
     },
     {
       "id": "w9-方法",
@@ -1848,13 +1848,13 @@
       "english": "shape",
       "example_zh": "月亮的形状变了。",
       "example_en": "The moon's shape changed.",
-      "example_pinyin": "yuè liàng de xíng zhuàng biàn le 。",
+      "example_pinyin": "yuè liang de xíng zhuàng biàn le 。",
       "example_source": "generated",
       "audio_term": "audio/13-形状.m4a",
       "audio_example": "audio/13-ex-形状.m4a",
       "status": "extracted",
       "needs_human": false,
-      "checksum": "935476645121"
+      "checksum": "816663ea6f96"
     },
     {
       "id": "w13-海洋",
@@ -2077,18 +2077,18 @@
       "week": 15,
       "term": "告诉",
       "unit": "word",
-      "pinyin": "gào sù",
+      "pinyin": "gào su",
       "pinyin_source": "pinyin-pro",
       "english": "to tell",
       "example_zh": "告诉我你的名字。",
       "example_en": "Tell me your name.",
-      "example_pinyin": "gào sù wǒ nǐ de míng zì 。",
+      "example_pinyin": "gào su wǒ nǐ de míng zi 。",
       "example_source": "generated",
       "audio_term": "audio/15-告诉.m4a",
       "audio_example": "audio/15-ex-告诉.m4a",
       "status": "extracted",
       "needs_human": false,
-      "checksum": "c2b4845f8f0d"
+      "checksum": "a65249f457cc"
     },
     {
       "id": "w15-地图",
@@ -2383,18 +2383,18 @@
       "week": 16,
       "term": "告诉",
       "unit": "word",
-      "pinyin": "gào sù",
+      "pinyin": "gào su",
       "pinyin_source": "pinyin-pro",
       "english": "to tell",
       "example_zh": "请告诉老师。",
       "example_en": "Please tell the teacher.",
-      "example_pinyin": "qǐng gào sù lǎo shī 。",
+      "example_pinyin": "qǐng gào su lǎo shī 。",
       "example_source": "generated",
       "audio_term": "audio/16-告诉.m4a",
       "audio_example": "audio/16-ex-告诉.m4a",
       "status": "extracted",
       "needs_human": false,
-      "checksum": "352cb843594d"
+      "checksum": "82eacc956001"
     },
     {
       "id": "w16-图例",
@@ -2496,13 +2496,13 @@
       "english": "title",
       "example_zh": "故事有标题。",
       "example_en": "The story has a title.",
-      "example_pinyin": "gù shì yǒu biāo tí 。",
+      "example_pinyin": "gù shi yǒu biāo tí 。",
       "example_source": "generated",
       "audio_term": "audio/16-标题.m4a",
       "audio_example": "audio/16-ex-标题.m4a",
       "status": "extracted",
       "needs_human": false,
-      "checksum": "5998fd6055e0"
+      "checksum": "10a82aec6d09"
     },
     {
       "id": "w16-比例尺",
@@ -2599,18 +2599,18 @@
       "week": 17,
       "term": "东西",
       "unit": "word",
-      "pinyin": "dōng xī",
+      "pinyin": "dōng xi",
       "pinyin_source": "pinyin-pro",
       "english": "thing",
       "example_zh": "桌上有东西。",
       "example_en": "There is something on the table.",
-      "example_pinyin": "zhuō shàng yǒu dōng xī 。",
+      "example_pinyin": "zhuō shàng yǒu dōng xi 。",
       "example_source": "generated",
       "audio_term": "audio/17-东西.m4a",
       "audio_example": "audio/17-ex-东西.m4a",
       "status": "extracted",
       "needs_human": false,
-      "checksum": "3b70e0dbed40"
+      "checksum": "3234fa3dc0dc"
     },
     {
       "id": "w17-亚洲",
@@ -3733,18 +3733,18 @@
       "week": 22,
       "term": "告诉",
       "unit": "word",
-      "pinyin": "gào sù",
+      "pinyin": "gào su",
       "pinyin_source": "pinyin-pro",
       "english": "to tell",
       "example_zh": "我告诉你一件事。",
       "example_en": "I'll tell you something.",
-      "example_pinyin": "wǒ gào sù nǐ yí jiàn shì 。",
+      "example_pinyin": "wǒ gào su nǐ yí jiàn shì 。",
       "example_source": "generated",
       "audio_term": "audio/22-告诉.m4a",
       "audio_example": "audio/22-ex-告诉.m4a",
       "status": "extracted",
       "needs_human": false,
-      "checksum": "f625acdc02e3"
+      "checksum": "f894e5a50ec7"
     },
     {
       "id": "w22-地图",
@@ -3774,13 +3774,13 @@
       "english": "shape",
       "example_zh": "月亮的形状变了。",
       "example_en": "The moon's shape changed.",
-      "example_pinyin": "yuè liàng de xíng zhuàng biàn le 。",
+      "example_pinyin": "yuè liang de xíng zhuàng biàn le 。",
       "example_source": "generated",
       "audio_term": "audio/22-形状.m4a",
       "audio_example": "audio/22-ex-形状.m4a",
       "status": "extracted",
       "needs_human": false,
-      "checksum": "935476645121"
+      "checksum": "816663ea6f96"
     },
     {
       "id": "w22-方向",
@@ -3792,13 +3792,13 @@
       "english": "direction",
       "example_zh": "地图告诉我们方向。",
       "example_en": "The map tells us the direction.",
-      "example_pinyin": "dì tú gào sù wǒ men fāng xiàng 。",
+      "example_pinyin": "dì tú gào su wǒ men fāng xiàng 。",
       "example_source": "generated",
       "audio_term": "audio/22-方向.m4a",
       "audio_example": "audio/22-ex-方向.m4a",
       "status": "extracted",
       "needs_human": false,
-      "checksum": "0978b41a214f"
+      "checksum": "e88274aa8740"
     },
     {
       "id": "w22-时候",
@@ -4327,18 +4327,18 @@
       "week": 24,
       "term": "名字",
       "unit": "word",
-      "pinyin": "míng zì",
+      "pinyin": "míng zi",
       "pinyin_source": "pinyin-pro",
       "english": "name",
       "example_zh": "你叫什么名字？",
       "example_en": "What is your name?",
-      "example_pinyin": "nǐ jiào shén me míng zì ？",
+      "example_pinyin": "nǐ jiào shén me míng zi ？",
       "example_source": "generated",
       "audio_term": "audio/24-名字.m4a",
       "audio_example": "audio/24-ex-名字.m4a",
       "status": "extracted",
       "needs_human": false,
-      "checksum": "d3f3ba41f56a"
+      "checksum": "8f73a0ddca04"
     },
     {
       "id": "w24-困难",
@@ -4435,18 +4435,18 @@
       "week": 24,
       "term": "故事",
       "unit": "word",
-      "pinyin": "gù shì",
+      "pinyin": "gù shi",
       "pinyin_source": "pinyin-pro",
       "english": "story",
       "example_zh": "我爱听故事。",
       "example_en": "I love hearing stories.",
-      "example_pinyin": "wǒ ài tīng gù shì 。",
+      "example_pinyin": "wǒ ài tīng gù shi 。",
       "example_source": "generated",
       "audio_term": "audio/24-故事.m4a",
       "audio_example": "audio/24-ex-故事.m4a",
       "status": "extracted",
       "needs_human": false,
-      "checksum": "937e1a98398c"
+      "checksum": "be5c6c832143"
     },
     {
       "id": "w24-方向",
@@ -4728,13 +4728,13 @@
       "english": "outer space",
       "example_zh": "太空里有星星。",
       "example_en": "There are stars in space.",
-      "example_pinyin": "tài kōng lǐ yǒu xīng xīng 。",
+      "example_pinyin": "tài kōng lǐ yǒu xīng xing 。",
       "example_source": "generated",
       "audio_term": "audio/25-太空.m4a",
       "audio_example": "audio/25-ex-太空.m4a",
       "status": "extracted",
       "needs_human": false,
-      "checksum": "079f864ebd3b"
+      "checksum": "b7d431cd1730"
     },
     {
       "id": "w25-如果",
@@ -5101,36 +5101,36 @@
       "week": 26,
       "term": "意思",
       "unit": "word",
-      "pinyin": "yì sī",
+      "pinyin": "yì si",
       "pinyin_source": "pinyin-pro",
       "english": "meaning",
       "example_zh": "这是什么意思？",
       "example_en": "What does this mean?",
-      "example_pinyin": "zhè shì shén me yì sī ？",
+      "example_pinyin": "zhè shì shén me yì si ？",
       "example_source": "generated",
       "audio_term": "audio/26-意思.m4a",
       "audio_example": "audio/26-ex-意思.m4a",
       "status": "extracted",
       "needs_human": false,
-      "checksum": "92028c499ae2"
+      "checksum": "e7e16cbda042"
     },
     {
       "id": "w26-故事",
       "week": 26,
       "term": "故事",
       "unit": "word",
-      "pinyin": "gù shì",
+      "pinyin": "gù shi",
       "pinyin_source": "pinyin-pro",
       "english": "story",
       "example_zh": "妈妈讲故事。",
       "example_en": "Mom tells a story.",
-      "example_pinyin": "mā ma jiǎng gù shì 。",
+      "example_pinyin": "mā ma jiǎng gù shi 。",
       "example_source": "generated",
       "audio_term": "audio/26-故事.m4a",
       "audio_example": "audio/26-ex-故事.m4a",
       "status": "extracted",
       "needs_human": false,
-      "checksum": "af832dae601c"
+      "checksum": "9e4c6e1c5b4d"
     },
     {
       "id": "w26-特别",
@@ -5286,13 +5286,13 @@
       "english": "to revolve around",
       "example_zh": "月亮围绕地球。",
       "example_en": "The moon revolves around the Earth.",
-      "example_pinyin": "yuè liàng wéi rào dì qiú 。",
+      "example_pinyin": "yuè liang wéi rào dì qiú 。",
       "example_source": "generated",
       "audio_term": "audio/27-围绕.m4a",
       "audio_example": "audio/27-ex-围绕.m4a",
       "status": "extracted",
       "needs_human": false,
-      "checksum": "4b93dcdeaf72"
+      "checksum": "b63a7f61e242"
     },
     {
       "id": "w27-地球",
@@ -5628,13 +5628,13 @@
       "english": "the universe",
       "example_zh": "宇宙里有星星。",
       "example_en": "The universe has stars.",
-      "example_pinyin": "yǔ zhòu lǐ yǒu xīng xīng 。",
+      "example_pinyin": "yǔ zhòu lǐ yǒu xīng xing 。",
       "example_source": "generated",
       "audio_term": "audio/28-宇宙.m4a",
       "audio_example": "audio/28-ex-宇宙.m4a",
       "status": "extracted",
       "needs_human": false,
-      "checksum": "3faa4a051078"
+      "checksum": "2651b02d8833"
     },
     {
       "id": "w28-宇航员",
@@ -5754,13 +5754,13 @@
       "english": "to observe",
       "example_zh": "我们观察星星。",
       "example_en": "We observe the stars.",
-      "example_pinyin": "wǒ men guān chá xīng xīng 。",
+      "example_pinyin": "wǒ men guān chá xīng xing 。",
       "example_source": "generated",
       "audio_term": "audio/28-观察.m4a",
       "audio_example": "audio/28-ex-观察.m4a",
       "status": "extracted",
       "needs_human": false,
-      "checksum": "571df0747f30"
+      "checksum": "75494ee57bbd"
     },
     {
       "id": "w28-认真",
@@ -5808,13 +5808,13 @@
       "english": "night",
       "example_zh": "黑夜里有月亮。",
       "example_en": "There is a moon at night.",
-      "example_pinyin": "hēi yè lǐ yǒu yuè liàng 。",
+      "example_pinyin": "hēi yè lǐ yǒu yuè liang 。",
       "example_source": "generated",
       "audio_term": "audio/28-黑夜.m4a",
       "audio_example": "audio/28-ex-黑夜.m4a",
       "status": "extracted",
       "needs_human": false,
-      "checksum": "51f24c812885"
+      "checksum": "0b9deb4dfeca"
     },
     {
       "id": "w29-倾斜",
@@ -6235,18 +6235,18 @@
       "week": 30,
       "term": "意思",
       "unit": "word",
-      "pinyin": "yì sī",
+      "pinyin": "yì si",
       "pinyin_source": "pinyin-pro",
       "english": "meaning",
       "example_zh": "我懂你的意思。",
       "example_en": "I understand what you mean.",
-      "example_pinyin": "wǒ dǒng nǐ de yì sī 。",
+      "example_pinyin": "wǒ dǒng nǐ de yì si 。",
       "example_source": "generated",
       "audio_term": "audio/30-意思.m4a",
       "audio_example": "audio/30-ex-意思.m4a",
       "status": "extracted",
       "needs_human": false,
-      "checksum": "a3604ed2e3bc"
+      "checksum": "f20287c6d72d"
     },
     {
       "id": "w30-感觉",
@@ -6420,13 +6420,13 @@
       "english": "funny",
       "example_zh": "这个故事很好笑。",
       "example_en": "This story is funny.",
-      "example_pinyin": "zhè ge gù shì hěn hǎo xiào 。",
+      "example_pinyin": "zhè ge gù shi hěn hǎo xiào 。",
       "example_source": "generated",
       "audio_term": "audio/31-好笑.m4a",
       "audio_example": "audio/31-ex-好笑.m4a",
       "status": "extracted",
       "needs_human": false,
-      "checksum": "ef82832380f0"
+      "checksum": "74bc3cb6ee33"
     },
     {
       "id": "w31-应该",
@@ -6577,18 +6577,18 @@
       "week": 31,
       "term": "舒服",
       "unit": "word",
-      "pinyin": "shū fú",
+      "pinyin": "shū fu",
       "pinyin_source": "pinyin-pro",
       "english": "comfortable",
       "example_zh": "沙发很舒服。",
       "example_en": "The sofa is comfortable.",
-      "example_pinyin": "shā fā hěn shū fú 。",
+      "example_pinyin": "shā fā hěn shū fu 。",
       "example_source": "generated",
       "audio_term": "audio/31-舒服.m4a",
       "audio_example": "audio/31-ex-舒服.m4a",
       "status": "extracted",
       "needs_human": false,
-      "checksum": "3a0f287755fe"
+      "checksum": "1e68ebf63a8b"
     },
     {
       "id": "w31-西瓜",
@@ -6654,13 +6654,13 @@
       "english": "tool",
       "example_zh": "锤子是工具。",
       "example_en": "A hammer is a tool.",
-      "example_pinyin": "chuí zǐ shì gōng jù 。",
+      "example_pinyin": "chuí zi shì gōng jù 。",
       "example_source": "generated",
       "audio_term": "audio/32-工具.m4a",
       "audio_example": "audio/32-ex-工具.m4a",
       "status": "extracted",
       "needs_human": false,
-      "checksum": "f1f1ea754f25"
+      "checksum": "4a31ec20d85c"
     },
     {
       "id": "w32-帮助",
@@ -6775,18 +6775,18 @@
       "week": 32,
       "term": "楔子",
       "unit": "word",
-      "pinyin": "xiē zǐ",
+      "pinyin": "xiē zi",
       "pinyin_source": "pinyin-pro",
       "english": "wedge",
       "example_zh": "楔子能劈木头。",
       "example_en": "A wedge can split wood.",
-      "example_pinyin": "xiē zǐ néng pī mù tou 。",
+      "example_pinyin": "xiē zi néng pī mù tou 。",
       "example_source": "generated",
       "audio_term": "audio/32-楔子.m4a",
       "audio_example": "audio/32-ex-楔子.m4a",
       "status": "extracted",
       "needs_human": false,
-      "checksum": "fe919aa280ab"
+      "checksum": "5a2c2479a66d"
     },
     {
       "id": "w32-滑轮",
@@ -6798,13 +6798,13 @@
       "english": "pulley",
       "example_zh": "滑轮能拉东西。",
       "example_en": "A pulley can pull things.",
-      "example_pinyin": "huá lún néng lā dōng xī 。",
+      "example_pinyin": "huá lún néng lā dōng xi 。",
       "example_source": "generated",
       "audio_term": "audio/32-滑轮.m4a",
       "audio_example": "audio/32-ex-滑轮.m4a",
       "status": "extracted",
       "needs_human": false,
-      "checksum": "05a37408c62d"
+      "checksum": "aebd509a6acd"
     },
     {
       "id": "w32-简单",
@@ -6829,18 +6829,18 @@
       "week": 32,
       "term": "箱子",
       "unit": "word",
-      "pinyin": "xiāng zǐ",
+      "pinyin": "xiāng zi",
       "pinyin_source": "pinyin-pro",
       "english": "box",
       "example_zh": "箱子很重。",
       "example_en": "The box is heavy.",
-      "example_pinyin": "xiāng zǐ hěn zhòng 。",
+      "example_pinyin": "xiāng zi hěn zhòng 。",
       "example_source": "generated",
       "audio_term": "audio/32-箱子.m4a",
       "audio_example": "audio/32-ex-箱子.m4a",
       "status": "extracted",
       "needs_human": false,
-      "checksum": "9479f61d1210"
+      "checksum": "faaca359679c"
     },
     {
       "id": "w32-终于",
@@ -6850,15 +6850,15 @@
       "pinyin": "zhōng yú",
       "pinyin_source": "pinyin-pro",
       "english": "finally",
-      "example_zh": "终于到周末了。",
-      "example_en": "The weekend is finally here.",
-      "example_pinyin": "zhōng yú dào zhōu mò liǎo 。",
+      "example_zh": "终于放假了！",
+      "example_en": "It's finally vacation!",
+      "example_pinyin": "zhōng yú fàng jià le ！",
       "example_source": "generated",
       "audio_term": "audio/32-终于.m4a",
       "audio_example": "audio/32-ex-终于.m4a",
       "status": "extracted",
       "needs_human": false,
-      "checksum": "b8467e047a8b"
+      "checksum": "dd13817639dd"
     },
     {
       "id": "w32-老虎",
@@ -6883,18 +6883,18 @@
       "week": 32,
       "term": "舒服",
       "unit": "word",
-      "pinyin": "shū fú",
+      "pinyin": "shū fu",
       "pinyin_source": "pinyin-pro",
       "english": "comfortable",
       "example_zh": "床很舒服。",
       "example_en": "The bed is comfortable.",
-      "example_pinyin": "chuáng hěn shū fú 。",
+      "example_pinyin": "chuáng hěn shū fu 。",
       "example_source": "generated",
       "audio_term": "audio/32-舒服.m4a",
       "audio_example": "audio/32-ex-舒服.m4a",
       "status": "extracted",
       "needs_human": false,
-      "checksum": "c8be774386a4"
+      "checksum": "d4264e0fa0a5"
     },
     {
       "id": "w32-螺旋",
@@ -6996,13 +6996,13 @@
       "english": "to haul / to move",
       "example_zh": "工人搬运箱子。",
       "example_en": "The workers move the boxes.",
-      "example_pinyin": "gōng rén bān yùn xiāng zǐ 。",
+      "example_pinyin": "gōng rén bān yùn xiāng zi 。",
       "example_source": "generated",
       "audio_term": "audio/33-搬运.m4a",
       "audio_example": "audio/33-ex-搬运.m4a",
       "status": "extracted",
       "needs_human": false,
-      "checksum": "1f0bc856a2ca"
+      "checksum": "0f256571450e"
     },
     {
       "id": "w33-支点",
@@ -7099,18 +7099,18 @@
       "week": 33,
       "term": "楔子",
       "unit": "word",
-      "pinyin": "xiē zǐ",
+      "pinyin": "xiē zi",
       "pinyin_source": "pinyin-pro",
       "english": "wedge",
       "example_zh": "楔子很尖。",
       "example_en": "The wedge is sharp.",
-      "example_pinyin": "xiē zǐ hěn jiān 。",
+      "example_pinyin": "xiē zi hěn jiān 。",
       "example_source": "generated",
       "audio_term": "audio/33-楔子.m4a",
       "audio_example": "audio/33-ex-楔子.m4a",
       "status": "extracted",
       "needs_human": false,
-      "checksum": "770be6d00e85"
+      "checksum": "e48f0f4f8e68"
     },
     {
       "id": "w33-楼梯",
@@ -7171,18 +7171,18 @@
       "week": 33,
       "term": "舒服",
       "unit": "word",
-      "pinyin": "shū fú",
+      "pinyin": "shū fu",
       "pinyin_source": "pinyin-pro",
       "english": "comfortable",
       "example_zh": "今天很舒服。",
       "example_en": "Today feels comfortable.",
-      "example_pinyin": "jīn tiān hěn shū fú 。",
+      "example_pinyin": "jīn tiān hěn shū fu 。",
       "example_source": "generated",
       "audio_term": "audio/33-舒服.m4a",
       "audio_example": "audio/33-ex-舒服.m4a",
       "status": "extracted",
       "needs_human": false,
-      "checksum": "2cc04bcd8b4a"
+      "checksum": "4039b1d678b7"
     },
     {
       "id": "w33-螺丝",
@@ -7225,18 +7225,18 @@
       "week": 33,
       "term": "轮子",
       "unit": "word",
-      "pinyin": "lún zǐ",
+      "pinyin": "lún zi",
       "pinyin_source": "pinyin-pro",
       "english": "wheel",
       "example_zh": "车有四个轮子。",
       "example_en": "A car has four wheels.",
-      "example_pinyin": "chē yǒu sì gè lún zǐ 。",
+      "example_pinyin": "chē yǒu sì gè lún zi 。",
       "example_source": "generated",
       "audio_term": "audio/33-轮子.m4a",
       "audio_example": "audio/33-ex-轮子.m4a",
       "status": "extracted",
       "needs_human": false,
-      "checksum": "4eab98a3e9e0"
+      "checksum": "63850f44c3ad"
     },
     {
       "id": "w33-轮轴",
@@ -7554,13 +7554,13 @@
       "english": "to turn",
       "example_zh": "轮子在转动。",
       "example_en": "The wheel is turning.",
-      "example_pinyin": "lún zǐ zài zhuàn dòng 。",
+      "example_pinyin": "lún zi zài zhuàn dòng 。",
       "example_source": "generated",
       "audio_term": "audio/34-转动.m4a",
       "audio_example": "audio/34-ex-转动.m4a",
       "status": "extracted",
       "needs_human": false,
-      "checksum": "8eeb43477997"
+      "checksum": "23b701638a76"
     },
     {
       "id": "w34-部分",
@@ -7693,18 +7693,18 @@
       "week": 35,
       "term": "楔子",
       "unit": "word",
-      "pinyin": "xiē zǐ",
+      "pinyin": "xiē zi",
       "pinyin_source": "pinyin-pro",
       "english": "wedge",
       "example_zh": "楔子能切开。",
       "example_en": "A wedge can split things.",
-      "example_pinyin": "xiē zǐ néng qiè kāi 。",
+      "example_pinyin": "xiē zi néng qiè kāi 。",
       "example_source": "generated",
       "audio_term": "audio/35-楔子.m4a",
       "audio_example": "audio/35-ex-楔子.m4a",
       "status": "extracted",
       "needs_human": false,
-      "checksum": "bb6b45fe0f04"
+      "checksum": "846f98675e0d"
     },
     {
       "id": "w35-滑轮",
@@ -7768,33 +7768,33 @@
       "pinyin": "luó xuán",
       "pinyin_source": "pinyin-pro",
       "english": "spiral",
-      "example_zh": "螺旋向上转。",
-      "example_en": "The spiral turns upward.",
-      "example_pinyin": "luó xuán xiàng shàng zhuǎn 。",
+      "example_zh": "楼梯是螺旋的。",
+      "example_en": "The staircase is spiral.",
+      "example_pinyin": "lóu tī shì luó xuán de 。",
       "example_source": "generated",
       "audio_term": "audio/35-螺旋.m4a",
       "audio_example": "audio/35-ex-螺旋.m4a",
       "status": "extracted",
       "needs_human": false,
-      "checksum": "6c19112bcf0c"
+      "checksum": "eb403da62a33"
     },
     {
       "id": "w35-轮子",
       "week": 35,
       "term": "轮子",
       "unit": "word",
-      "pinyin": "lún zǐ",
+      "pinyin": "lún zi",
       "pinyin_source": "pinyin-pro",
       "english": "wheel",
       "example_zh": "轮子是圆的。",
       "example_en": "A wheel is round.",
-      "example_pinyin": "lún zǐ shì yuán de 。",
+      "example_pinyin": "lún zi shì yuán de 。",
       "example_source": "generated",
       "audio_term": "audio/35-轮子.m4a",
       "audio_example": "audio/35-ex-轮子.m4a",
       "status": "extracted",
       "needs_human": false,
-      "checksum": "62896eddd72a"
+      "checksum": "5beb7e423bfb"
     },
     {
       "id": "w35-轮轴",

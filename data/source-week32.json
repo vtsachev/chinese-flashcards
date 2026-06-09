@@ -17,6 +17,6 @@
     { "term": "轮轴", "english": "wheel and axle", "example_zh": "轮轴会转。",         "example_en": "The wheel and axle turns." },
     { "term": "舒服", "english": "comfortable",    "example_zh": "床很舒服。",         "example_en": "The bed is comfortable." },
     { "term": "应该", "english": "should",         "example_zh": "你应该帮忙。",       "example_en": "You should help." },
-    { "term": "终于", "english": "finally",        "example_zh": "终于到周末了。",     "example_en": "The weekend is finally here." }
+    { "term": "终于", "english": "finally",        "example_zh": "终于放假了！",       "example_en": "It's finally vacation!" }
   ]
 }

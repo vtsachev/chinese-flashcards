@@ -10,7 +10,12 @@ const VERIFIED_COUNTS = { 5:8, 6:10, 7:10, 8:12, 9:14, 10:14, 11:14, 12:14, 13:1
   27:16, 28:17, 29:15, 30:15, 31:16, 32:17, 33:18, 34:18, 35:14 };
 
 // Same verified overrides as scripts/build.mjs (keep in sync).
-const PINYIN_FIX = { '湖泊':'hú pō', '时候':'shí hou', '困难':'kùn nan', '明白':'míng bai', '厉害':'lì hai' };
+const PINYIN_FIX = {
+  '湖泊':'hú pō', '时候':'shí hou', '困难':'kùn nan', '明白':'míng bai', '厉害':'lì hai',
+  '东西':'dōng xi', '名字':'míng zi', '故事':'gù shi', '告诉':'gào su', '意思':'yì si',
+  '舒服':'shū fu', '月亮':'yuè liang', '锤子':'chuí zi', '楔子':'xiē zi', '箱子':'xiāng zi',
+  '轮子':'lún zi', '星星':'xīng xing'
+};
 const rawPy = (zh) => pinyin(zh, { toneType: 'symbol', type: 'string', nonZh: 'consecutive' });
 const WRONG2RIGHT = Object.fromEntries(Object.entries(PINYIN_FIX).map(([w, r]) => [rawPy(w), r]));
 const fixEx = (s) => { for (const [bad, good] of Object.entries(WRONG2RIGHT)) s = s.split(bad).join(good); return s; };
