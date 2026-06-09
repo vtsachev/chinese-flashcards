@@ -54,9 +54,25 @@ const shuffle = a => { a=[...a]; for(let i=a.length-1;i>0;i--){const j=Math.floo
 
 /* ================= PRACTICE ================= */
 let queue = [];
+let session = null;
 function startPractice(){
   queue = shuffle(dueNow());           // interleaved across all weeks
+  session = { total: queue.length, completed: 0, correct: 0, wrong: 0 };
   nextCard();
+}
+// live session scoreboard shown above every practice card
+function hud(){
+  if (!session) return '';
+  const pct = session.total ? Math.round(session.completed / session.total * 100) : 0;
+  return `
+    <div class="hud">
+      <div class="bar"><span style="width:${pct}%"></span></div>
+      <div class="hudrow">
+        <span class="pill">Card ${Math.min(session.completed + 1, session.total)} of ${session.total}</span>
+        <span class="pill good">✅ ${session.correct}</span>
+        <span class="pill bad">❌ ${session.wrong}</span>
+      </div>
+    </div>`;
 }
 function nextCard(){
   if (!queue.length) return practiceDone();
@@ -70,18 +86,20 @@ function remaining(){ return queue.length; }
 function recognizeView(card){
   app.innerHTML = `
     <div class="stage">
-      <div class="prompt-label">Do you know this? 🤔</div>
+      ${hud()}
+      <div class="prompt-label">Can you read it out loud? 🤔</div>
       <div class="bigcard">
         <div class="hanzi zh">${card.term}</div>
-        <button class="audio" id="say" aria-label="Listen">🔊</button>
+        <button class="audio" id="say" aria-label="Hear it">🔊</button>
+        <div class="hint">try first — tap 🔊 only if you need it</div>
       </div>
       <div class="btnrow"><button class="big reveal" id="reveal">Show answer</button></div>
     </div>`;
   $('#say').onclick = ()=>play(card.audio_term);
-  play(card.audio_term);
   $('#reveal').onclick = ()=>{
     app.innerHTML = `
     <div class="stage">
+      ${hud()}
       <div class="bigcard">
         <div class="hanzi zh">${card.term}</div>
         <div class="pinyin">${card.pinyin}</div>
@@ -89,16 +107,20 @@ function recognizeView(card){
         <div class="example"><span class="zh">${card.example_zh}</span>
           <span class="pinyin" style="font-size:1rem">${card.example_pinyin}</span>
           <span class="en">${card.example_en}</span></div>
-        <button class="audio" id="say2" aria-label="Listen">🔊</button>
+        <div class="btnrow" style="margin-top:6px">
+          <button class="audio" id="say2" aria-label="Hear word">🔊 词</button>
+          <button class="audio" id="say3" aria-label="Hear sentence">🔊 句</button>
+        </div>
       </div>
       <div class="btnrow">
         <button class="big again" id="again">Again</button>
         <button class="big good" id="got">Got it! ✅</button>
       </div>
     </div>`;
-    $('#say2').onclick = ()=>play(card.audio_example);
-    $('#again').onclick = ()=>{ grade(card.id,false); queue.push(card); toast('We’ll see it again 🔁'); nextCard(); };
-    $('#got').onclick  = ()=>{ grade(card.id,true); toast('Nice! 🎉'); nextCard(); };
+    $('#say2').onclick = ()=>play(card.audio_term);
+    $('#say3').onclick = ()=>play(card.audio_example);
+    $('#again').onclick = ()=>{ session.wrong++; grade(card.id,false); queue.push(card); toast('We’ll see it again 🔁'); nextCard(); };
+    $('#got').onclick  = ()=>{ session.correct++; session.completed++; grade(card.id,true); toast('Nice! 🎉'); nextCard(); };
   };
 }
 
@@ -107,17 +129,17 @@ function produceView(card){
   const choices = shuffle([card, ...others]);
   app.innerHTML = `
     <div class="stage">
+      ${hud()}
       <div class="prompt-label">Which character means this?</div>
-      <div class="bigcard" style="min-height:160px">
+      <div class="bigcard" style="min-height:150px">
         <div class="english">${card.english}</div>
-        <button class="audio" id="say" aria-label="Listen">🔊</button>
+        <button class="audio" id="say" aria-label="Hear it">🔊</button>
       </div>
       <div class="choices" id="choices">
         ${choices.map(c=>`<button class="zh" data-id="${c.id}">${c.term}</button>`).join('')}
       </div>
     </div>`;
   $('#say').onclick = ()=>play(card.audio_term);
-  play(card.audio_term);
   $('#choices').querySelectorAll('button').forEach(b=>{
     b.onclick = ()=>{
       const ok = b.dataset.id === card.id;
@@ -127,7 +149,7 @@ function produceView(card){
         else if (x === b) x.classList.add('wrong');
       });
       grade(card.id, ok);
-      if (!ok) queue.push(card);
+      if (ok) { session.correct++; session.completed++; } else { session.wrong++; queue.push(card); }
       toast(ok ? 'Correct! 🌟' : `It’s ${card.term} (${card.pinyin})`);
       setTimeout(nextCard, ok ? 750 : 1500);
     };
@@ -136,10 +158,16 @@ function produceView(card){
 
 function practiceDone(){
   const total = CARDS.length, mastered = CARDS.filter(c=>isMastered(c.id)).length;
+  const s = session || { completed:0, correct:0, wrong:0, total:0 };
+  const went = s.correct + s.wrong;
   app.innerHTML = `
     <div class="stage">
-      <div class="donebanner">🎉 All done for now!<br>You reviewed everything that was due.</div>
+      <div class="donebanner">🎉 Great work!<br>You went through ${went} card${went===1?'':'s'} this round.</div>
       <div class="bigcard" style="min-height:auto">
+        <div class="hudrow" style="font-size:1.3rem">
+          <span class="pill good">✅ ${s.correct} right</span>
+          <span class="pill bad">❌ ${s.wrong} to review</span>
+        </div>
         <div class="english">Mastered <b>${mastered}</b> of <b>${total}</b> · 🔥 ${state.streak.count}-day streak</div>
         <button class="big" id="again" style="max-width:240px">Practice again</button>
       </div>
@@ -183,7 +211,6 @@ function detail(card){
     </div>`;
   $('#t').onclick=()=>play(card.audio_term);
   $('#e').onclick=()=>play(card.audio_example);
-  play(card.audio_term);
   $('#back').onclick=browseView;
 }
 
